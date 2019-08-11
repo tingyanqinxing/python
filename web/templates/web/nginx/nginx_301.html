@@ -1,0 +1,57 @@
+{% load static %}
+{% include "web/template/base_header.html" %}
+
+{% if postUrlName == "testNginxConnect" %}
+<form action='{% url "web:testNginxConnect" %}' method="post">
+{% elif postUrlName == "changeNginxConfig" %}
+<form action='{% url "web:changeNginxConfig" %}' method="post">
+{% endif %}
+    {% csrf_token %}
+    <!--<p>HostIP: <input type="text" name="HostIP" value="{{HostIP}}"/></p>-->
+    <!--<p>HostPort: <input type="text" name="HostPort" value="{{HostPort}}"/></p>-->
+    <!--<p>LoginUser: <input type="text" name="LoginUser" value="{{LoginUser}}"/></p>-->
+    <!--<p>LoginPwd: <input type="password" name="LoginPwd" value="{{LoginPwd}}"/></p>-->
+    <!--<p>RootPwd: <input type="password" name="RootPwd" value="{{RootPwd}}"/></p>-->
+    <!--<p>NginxInstallPath: <input type="text" name="NginxInstallPath" value="/usr/local/gacp/nginx/"/></p>-->
+    <div><label style="display:inline-block;width:100px;">HostIP: </label><input class="easyui-validatebox" data-options="required:true" type="text" name="HostIP" value="10.64.36.52"/></div>
+    <div><label style="display:inline-block;width:100px;">HostPort: </label><input class="easyui-validatebox" data-options="required:true" type="text" name="HostPort" value="22"/></div>
+    <div><label style="display:inline-block;width:100px;">LoginUser: </label><input class="easyui-validatebox" data-options="required:true" type="text" name="LoginUser" value="qqc"/></div>
+    <div><label style="display:inline-block;width:100px;">LoginPwd: </label><input class="easyui-validatebox" data-options="required:true" type="password" name="LoginPwd" value="Qqc@123"/></div>
+    <div><label style="display:inline-block;width:100px;">RootPwd: </label><input class="easyui-validatebox" data-options="required:true" type="password" name="RootPwd" value="Qqc@123"/></div>
+    <div><label style="display:inline-block;width:100px;">NginxPath: </label><input class="easyui-validatebox" data-options="required:true" type="text" name="NginxInstallPath" value="/usr/local/nginx/"/></div>
+    <input type="submit" value="{{formSubmitButtonName}}"  />
+    {% if addConfigIsAvailable %}
+        <a title="addconfig" id="addconfig" href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'">增加配置</a>
+    {% endif %}
+
+    {% if nginxConfigContext %}
+        <div id="nginxConfigZone">
+        {% for name,content in nginxConfigContext.items %}
+
+                <p>{{name}}</p>
+                {% with c=content %}
+                    <textarea name="{{name}}" style="width:50%;height:220px">{% for line in c %}{{line}}{% endfor %}</textarea>
+                {% endwith %}
+        </div>
+
+        {% endfor %}
+    {%endif%}
+
+</form>
+    {% if tipMessage %}
+        <div id="win" class="easyui-window" title="提示消息" style="width:600px;height:400px" data-options="iconCls:'icon-save',modal:true">
+             {{tipMessage}}
+        </div>
+    {% endif %}
+
+    <script type="text/javascript">
+        $(function(){
+            $("a[title]").click(function(){
+                var unixT = Date.parse(new Date())/1000;
+                $("#nginxConfigZone").append('<p><input class="easyui-validatebox" data-options="required:true" type="text" name="' + unixT + '_filename" /></p><textarea name="' + unixT + '_filecontent" style="width:50%;height:220px"></textarea>');
+
+            });
+        });
+
+    </script>
+</form>
