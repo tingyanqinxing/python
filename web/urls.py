@@ -14,7 +14,9 @@ urlpatterns = [
     path('cloudflareListDomainRateLimits',views.cloudflareListDomainRateLimits,name="cloudflareListDomainRateLimits"),
     path('cloudflareGetDomainNameServer',views.cloudflareGetDomainNameServer,name="cloudflareGetDomainNameServer"),
     path('cloudflareAddDomainRateLimits',views.cloudflareAddDomainRateLimits,name="cloudflareAddDomainRateLimits"),
+    path('cloudflareDeleteDomainRateLimits',views.cloudflareDeleteDomainRateLimits,name="cloudflareDeleteDomainRateLimits"),
     path('cloudflareListDomainWAFRules',views.cloudflareListDomainWAFRules,name="cloudflareListDomainWAFRules"),
     path('cloudflareAddDomainWAFRules',views.cloudflareAddDomainWAFRules,name="cloudflareAddDomainWAFRules"),
+    path('cloudflareDeleteDomainWAFRules',views.cloudflareDeleteDomainWAFRules,name="cloudflareDeleteDomainWAFRules"),
     path('SIMS_show',views.SIMS_show,name="SIMS_show"),
 ]

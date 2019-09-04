@@ -70,6 +70,7 @@ class CloudflareClient():
                 return True,["无解析记录"]
         else:
             return False,res["errors"]
+
     def delDomainRecord(self,domain,domainZoneID,domainRecordID):
         url = getZoneIDUrl + "/" + domainZoneID + "/dns_records/" + domainRecordID
         res = requests.delete(url,headers=self._requestHeaders).json()
@@ -96,20 +97,8 @@ class CloudflareClient():
         url = getZoneIDUrl + "/" + domainZoneID + "/rate_limits"
         res = requests.get(url,headers=self._requestHeaders).json()
         print("getDomainRateLimits for domain %s result is: %s" %(domain,res))
-        resCode = res["success"]
-        if resCode:
-            result = res["result"]
-            if result:
-                ruleList = []
-                for r in result:
-                    ruleName = r["description"]
-                    ruleContent = "methods : %s | schemes : %s | urls : %s  period : %s threshold : %s --> action : %s timeout : %s --> disabled : %s" %(r["match"]['request']["methods"],r["match"]['request']["schemes"],r["match"]['request']['url'],str(r["period"]),str(r["threshold"]),r["action"]["mode"],str(r["action"]["timeout"]),str(r["disabled"]))
-                    ruleList.append({ruleName:ruleContent})
-                return True,ruleList
-            else:
-                return False,"没有RateLimit规则"
-        else:
-            return False,str(res["errors"])
+        return res
+
 
     def addDomainRateLimits(self,domain,domainZoneID,disabled,description,methods,schemes,aurl,threshold,period,action_mode,action_timeout,resp_body):
         url = getZoneIDUrl + "/" + domainZoneID + "/rate_limits"
@@ -152,5 +141,40 @@ class CloudflareClient():
         else:
             return False,str(res["errors"])
 
+    def delDomainRateLimits(self,domain,domainZoneID,domainRateLimitID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/rate_limits/" + domainRateLimitID
+        res = requests.delete(url,headers=self._requestHeaders).json()
+        print("delDomainRateLimits for domain %s result is : %s" %(domain,res))
+        return res
+
+    def getFirewallRules(self,domain,domainZoneID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/firewall/rules"
+        res = requests.get(url,headers=self._requestHeaders).json()
+        print("get Firewall Rules for domain %s result is : %s" %(domain,res))
+        return res
+
+    def deleteDomainFirewallRules(self,domain,domainZoneID,ruleID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/firewall/rules?id=" + ruleID
+        res = requests.delete(url,headers=self._requestHeaders).json()
+        print("Delete domain firewall rules for domain %s result is : %s " %(domain,res))
+        return res
+
+    def addDomainFirewallRules(self):
+        pass
+
+    def getDomainFirewallFilters(self,domain,domainZoneID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/filters"
+        res = requests.get(url,headers=self._requestHeaders).json()
+        print("get Domian Firewall Filters for domain %s result is : %s " %(domain,res))
+        return res
+
+    def deleteDomainFirewallFilters(self,domain,domainZoneID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/filters"
+        res = requests.delete(url, headers=self._requestHeaders).json()
+        print("delete Domian Firewall Filters for domain %s result is : %s " % (domain, res))
+        return res
+
+    def addDomainFirewallFilters(self):
+        pass
 
 
