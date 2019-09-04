@@ -1,0 +1,68 @@
+{% load static %}
+{% include "web/template/base_header.html" %}
+
+<body>
+    <form id="ff" action='{% url "web:cloudflareAddDomainRateLimits" %}' method="post">
+        {% csrf_token %}
+        <table cellpadding="5">
+            <tr>
+                <td>domains:</td>
+            </tr>
+            <tr>
+                <td><input class="easyui-textbox" type="text" name="domains" data-options="required:true,multiline:true" value="{{domains}}" style="width:200px;height:200px"></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Name*</td>
+                <td>scheme</td>
+                <td>method</td>
+                <td>url</td>
+                <td>threshold</td>
+                <td>period</td>
+                <td>action</td>
+                <td>timeout</td>
+                <td>disabled</td>
+            </tr>
+            <tr>
+                <td><input class="easyui-textbox" type="text" name="ruleName" data-options="prompt:'rule name'"></td>
+                <td><select class="easyui-combobox" name="scheme" style="width:130px;">
+                    <option value="ALL">ALL</option>
+                    <option value="HTTPSandHTTP">HTTPS&HTTP</option>
+                    <option value="HTTP">HTTP</option>
+                    <option value="HTTPS">HTTPS</option>
+
+                </select></td>
+                <td><select class="easyui-combobox" name="methods" style="width:130px;">
+                    <option value="ALL">ALL</option>
+                    <option value="GETandPOST">GET&POST</option>
+                    <option value="GET">GET</option>
+                    <option value="POST">POST</option>
+
+                </select></td>
+                <td><input class="easyui-textbox" type="text" name="url" data-options="prompt:'url'"></td>
+                <td><input class="easyui-textbox" type="text" name="threshold" data-options="prompt:'60'" style="width:90px;"></td>
+                <td><input class="easyui-textbox" type="text" name="period" data-options="prompt:'60'" style="width:60px;"></td>
+                <td><select class="easyui-combobox" name="action" style="width:90px;">
+                    <option value="ban">ban</option>
+                    <option value="simulate">simulate</option>
+                    <option value="challenge">challenge</option>
+                    <option value="js_challenge">js_challenge</option>
+                </select></td>
+                <td><input class="easyui-textbox" type="text" name="timeout" data-options="prompt:'60'" style="width:60px;"></td>
+                <td><select class="easyui-combobox" name="disabled" style="width:80px;">
+                    <option value="0">False</option>
+                    <option value="1">True</option>
+                </select></td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit"  />
+    </form>
+    {% if tipMessage %}
+        <div>
+            {% for t in tipMessage %}
+                <p>{{t}}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>

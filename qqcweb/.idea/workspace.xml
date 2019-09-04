@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90596e68-bc81-45d9-878b-39453985fb4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/qqcweb/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/accordion/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/accordion/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/accordion/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/animation/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/animation/fade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/animation/pop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/animation/slide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/badge/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/badge/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/badge/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/badge/tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/button/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/button/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/button/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/button/switch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/datagrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/datagrid/rowediting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/datalist/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/datalist/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/datalist/selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/dialog/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/dialog/message.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/form/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/images/login1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/images/modem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/images/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/images/pda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/images/scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/images/tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/input/numberspinner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/input/textbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/menu/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/menu/menubar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/panel/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/panel/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/panel/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/panel/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/simplelist/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/simplelist/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/simplelist/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/simplelist/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/simplelist/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/tabs/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/tabs/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/tabs/pill.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/toolbar/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/toolbar/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/toolbar/menu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/tree/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo-mobile/tree/dnd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/expandable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/accordion/tools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/calendar/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/calendar/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/calendar/disabledate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/calendar/firstday.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/calendar/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/calendar/weeknumber.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/checkbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combo/animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combo/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/combobox_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/combobox_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/customformat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/dynamicdata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/itemicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/multiline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/remotedata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combobox/remotejsonp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/initvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/navigation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combogrid/setvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotree/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotree/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotree/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotree/initvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotree/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotree/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotreegrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotreegrid/multiple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/combotreegrid/treegrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/aligncolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/cacheeditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/cellediting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/cellstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/clientpagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/columngroup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/complextoolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/contextmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/custompager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/datagrid_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/formatcolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/frozencolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/frozenrows.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/mergecells.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/multisorting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/products.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/rowborder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/rowediting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/rowstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/simpletoolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datagrid/transform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datalist/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datalist/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datalist/datalist_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datalist/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datalist/multiselect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datalist/remotedata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/clone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/dateformat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/restrict.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/sharedcalendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datebox/validate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimebox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimebox/initvalue.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimebox/showseconds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimespinner/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimespinner/clearicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimespinner/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/datetimespinner/format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/dialog/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/dialog/complextoolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/dialog/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/dialog/toolbarbuttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/draggable/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/draggable/constrain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/draggable/snap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/droppable/accept.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/droppable/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/droppable/sort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/easyloader/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/filebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/filebox/buttonalign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/filebox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/form/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/form/form_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/form/load.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/form/validateonsubmit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/addremove.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/collapsetitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/complex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/customcollapsetitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/datagrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/nestedlayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/nocollapsible.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/propertygrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/layout/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/iconalign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/plain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/linkbutton/toggle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/maskedbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menu/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menu/customitem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menu/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menu/inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menu/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menubutton/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menubutton/alignment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menubutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/menubutton/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/messager/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/messager/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/messager/interactive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/messager/position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberbox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberbox/format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberbox/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberspinner/align.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberspinner/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberspinner/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberspinner/increment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/numberspinner/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/pagination/attaching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/pagination/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/pagination/custombuttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/pagination/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/pagination/links.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/pagination/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/customtools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/halign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/loadcontent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/nestedpanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/panel/paneltools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/passwordbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/passwordbox/flash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/passwordbox/validatepassword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/progressbar/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/progressbar/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/propertygrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/propertygrid/customcolumns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/propertygrid/groupformat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/propertygrid/propertygrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/radiobutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/resizable/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/searchbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/searchbox/category.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/searchbox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/sidemenu/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/sidemenu/sidemenu_style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/sidemenu/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/formattip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/nonlinear.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/rule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/slider/vertical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/splitbutton/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/splitbutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/switchbutton/action.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/switchbutton/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/fixedwidth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/hover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/images/modem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/images/pda.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/images/scanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/images/tablet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/nestedtabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/striptools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/tabimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/tabposition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/tabstools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tabs/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/autocomplete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/format.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/style.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/tagbox_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tagbox/validate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/clearicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/multiline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/textbox/size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/timespinner/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/timespinner/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/timespinner/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/timespinner/hour12.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/timespinner/range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/_content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/_dialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/ajax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/customcontent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/customstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/position.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/toolbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tooltip/tooltipdialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/contextmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/customcheckbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/dnd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/editable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/formatting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/lazyload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/lines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/tree_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/tree/tree_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/checkbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/clientpagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/contextmenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/customcheckbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/editable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/lines.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/reports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/treegrid_data1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/treegrid_data2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/treegrid/treegrid_data3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/validatebox/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/validatebox/customtooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/validatebox/errorplacement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/validatebox/validateonblur.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/borderstyle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/customtools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/fluid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/inlinewindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/modalwindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/demo/window/windowlayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/easyloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/jquery.easyui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/jquery.easyui.mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/license_freeware.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-am.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-cz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-jp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-sv_SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-zh_CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/locale/easyui-lang-zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.checkbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.combo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.combobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.combogrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.combotree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.combotreegrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.datagrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.datalist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.datebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.datetimebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.datetimespinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.droppable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.filebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.linkbutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.maskedbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.menubutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.messager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.numberbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.numberspinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.panel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.passwordbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.propertygrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.radiobutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.searchbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.sidemenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.splitbutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.switchbutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.tagbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.textbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.timespinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.treegrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.validatebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/plugins/jquery.window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/easyloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.accordion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.combobox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.datebox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.draggable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.droppable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.linkbutton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.parser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.progressbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.propertygrid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.resizable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.tabs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/src/jquery.window.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/angular.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/black/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/bootstrap/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/color.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/default/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/gray/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/cancel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/clear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/cut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/edit_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/edit_remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/filesave.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/filter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/large_chart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/large_clipart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/large_picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/large_shapes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/large_smartart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/mini_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/mini_edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/mini_refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/more.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/no.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/pencil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/sum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/tip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/icons/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material-teal/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/material/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/combo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/combobox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/datagrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/datalist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/datebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/easyui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/filebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/accordion_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/blank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/calendar_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/combo_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/datagrid_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/datebox_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/layout_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/linkbutton_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/menu_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/messager_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/pagination_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/panel_tools.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/passwordbox_close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/passwordbox_open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/searchbox_button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/slider_handle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/spinner_arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/tabs_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/tagbox_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/tree_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/images/validatebox_warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/linkbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/menubutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/messager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/numberbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/pagination.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/panel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/passwordbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/progressbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/propertygrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/radiobutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/searchbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/sidemenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/spinner.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/splitbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/switchbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/tabs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/tagbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/textbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/tooltip.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/tree.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/validatebox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/metro/window.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/react.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqcweb/static/jquery-easyui-1.7.0/themes/vue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_defalut.log" beforeDir="false" afterPath="$PROJECT_DIR$/run_defalut.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/web/template/base_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/web/template/base_header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qqcweb/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/web/nginx/nginx_301.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#2;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#3;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#4;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#5;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#form#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#form#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/web/template/nginx/template_nginx.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/web/template/base_header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/inputCss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/commonTools/tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-300">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#138#239#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;label&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;label style=&quot;display:inline-block;width:100px;&quot;&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qqcweb/urls.py" />
+        <option value="$PROJECT_DIR$/qqcweb/settings.py" />
+        <option value="$PROJECT_DIR$/web/templates/web/template/cloudflare/template_cloudflare.html" />
+        <option value="$PROJECT_DIR$/web/templates/web/index.html" />
+        <option value="$PROJECT_DIR$/web/urls.py" />
+        <option value="$PROJECT_DIR$/static/inputCss.html" />
+        <option value="$PROJECT_DIR$/web/templates/web/template/base_header.html" />
+        <option value="$PROJECT_DIR$/static/inputCss.css" />
+        <option value="$PROJECT_DIR$/web/templates/web/nginx/nginx_301.html" />
+        <option value="$PROJECT_DIR$/web/views.py" />
+        <option value="$PROJECT_DIR$/web/templates/web/template/nginx/template_nginx.html" />
+        <option value="$PROJECT_DIR$/web/commonTools/tools.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="commonTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqcweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqcweb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90596e68-bc81-45d9-878b-39453985fb4a" name="Default Changelist" comment="" />
+      <created>1564236923277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564236923277</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17281349" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qqcweb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqcweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/web/template/cloudflare/template_cloudflare.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jquery-easyui-1.7.0/themes/angular.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17665" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/inputCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/web/template/base_header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/web/nginx/nginx_301.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#2;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#3;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#4;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#5;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#form#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/web/template/nginx/template_nginx.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/commonTools/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#138#239#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

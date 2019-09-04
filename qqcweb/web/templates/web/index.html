@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <!--header-->
+    {% include "web/template/base_header.html" %}
+<!--body-->
+<body class="easyui-layout">
+    <div data-options="region:'west',title:'QQC WEB',split:true" style="width:300px;">
+	    	<!-- 此处显示的是系统菜单 -->
+	    	<div id="aa" class="easyui-accordion" style="width:500px;">
+
+    			<div title="CloudFlare" data-options="selected:true" style="overflow:auto;">
+					{% include "web/template/cloudflare/template_cloudflare.html" %}
+				</div>
+
+			</div>
+	    </div>
+	    <div data-options="region:'center',title:'操作页面'" style="padding:5px;background:#eee;">
+			<div id="tt" class="easyui-tabs" data-options="fit:true">
+				<div title="系统缺省页面" style="padding:10px">
+					系统信息
+				</div>
+			</div>
+		</div>
+
+    </div>
+
+</body>
+</html>

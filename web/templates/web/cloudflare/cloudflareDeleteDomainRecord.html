@@ -1,0 +1,28 @@
+{% load static %}
+{% include "web/template/base_header.html" %}
+
+<body>
+    <form id="ff" action='{% url "web:cloudflareDeleteDomainRecord" %}' method="post">
+        {% csrf_token %}
+        <table cellpadding="5">
+            <tr>
+                <td>domains:</td>
+            </tr>
+            <tr>
+                <td><input class="easyui-textbox" type="text" name="domains" data-options="required:true,multiline:true" value="{{domains}}" style="width:200px;height:200px"></td>
+            </tr>
+        </table>
+        <select class="easyui-combobox" name="deleteType" style="width:200px;">
+            <option value="A">A</option>
+            <option value="CNAME">CNAME</option>
+        </select>
+        <input type="submit" value="Submit"  />
+    </form>
+    {% if tipMessage %}
+        <div>
+            {% for t in tipMessage %}
+                <p>{{t}}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+</body>
