@@ -2,7 +2,7 @@
 {% include "web/template/base_header.html" %}
 
 <body>
-    <form id="ff" action='{% url "web:cloudflareAddDomain" %}' method="post">
+    <form id="ff" action={{formProcessUrl}} method="post">
         {% csrf_token %}
         <table cellpadding="5">
             <tr>

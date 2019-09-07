@@ -105,7 +105,7 @@ def cloudflare_operate(request):
             print("check domain %s result: %s" %(d,res))
             if not res:
                 templateData["tipMessage"] = "%s is not valid,pls check" %(d)
-                return render(request, "web/cloudflare/cloudflareAddDomain.html", templateData)
+                return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
 
         cloudflareClient = CloudflareClient("helaowang@gmail.com","799bdf658832da5b74be6c0a4a2b35d3a43e3")
@@ -130,4 +130,4 @@ def cloudflare_operate(request):
         else:
             pass
         templateData["tipMessage"] = "ok"
-    return render(request,"web/cloudflare/cloudflareAddDomain.html",templateData)
+    return render(request,"web/cloudflare/cloudflareListBase.html",templateData)

@@ -47,39 +47,22 @@ class CloudflareClient():
         requestParams = {"name":domain,"account":{"id":accountid},"jump_start":False,"type":"full"}
         res = requests.post(getZoneIDUrl,data=json.dumps(requestParams),headers=self._requestHeaders).json()
         print("addDomain %s result is: %s" %(domain,res))
-        resCode = res["success"]
-        if resCode:
-            return True,"添加成功"
-        else:
-            return False,str(res["errors"])
+        return res
+
+
     ####return (True,[("type=A|CNAME","name='api.0j8uymf.com'",proxyed=True|False,"domainRecordID=11ae53"),...])|(False,["errors"])
     def listDomainRecords(self,domainZoneID,domain):
         url = getZoneIDUrl + "/" + domainZoneID + "/dns_records"
         res = requests.get(url,headers=self._requestHeaders).json()
         print("listDomainRecord of domain %s result is : %s" %(domain,res))
-        resCode = res["success"]
-        if resCode:
-            if res["result"]:
-                result = res["result"]
-                retList = []
-                for l in result:
-                    retList.append((l['id'],l['type'],l["name"],l['content'],l['proxied']))
+        return res
 
-                return True,retList
-            else:
-                return True,["无解析记录"]
-        else:
-            return False,res["errors"]
 
     def delDomainRecord(self,domain,domainZoneID,domainRecordID):
         url = getZoneIDUrl + "/" + domainZoneID + "/dns_records/" + domainRecordID
         res = requests.delete(url,headers=self._requestHeaders).json()
         print("deleteRecord for domain: %s result is %s" %(domain,res))
-        resCode = res["success"]
-        if resCode:
-            return True,"删除成功"
-        else:
-            return False,str(res["errors"])
+        return res
 
     def addDomainRecord(self,domain,domainZoneID,type,name,content,proxied):
         requestParams = {"type":type,"name":name,"content":content,"ttl":1,"priority":10,"proxied":proxied}
@@ -159,8 +142,18 @@ class CloudflareClient():
         print("Delete domain firewall rules for domain %s result is : %s " %(domain,res))
         return res
 
-    def addDomainFirewallRules(self):
-        pass
+    def addDomainFirewallRules(self,domain,domainZoneID,filterID,action,description):
+        url = getZoneIDUrl + "/" + domainZoneID + "/firewall/rules"
+        requestParams = [{
+            "filter": {
+                "id": filterID
+            },
+            "action": action,
+            "description": description
+        }]
+        res = requests.post(url, data=json.dumps(requestParams), headers=self._requestHeaders).json()
+        print("add Domian Firewall Rules for domain %s result is : %s " % (domain, res))
+        return res
 
     def getDomainFirewallFilters(self,domain,domainZoneID):
         url = getZoneIDUrl + "/" + domainZoneID + "/filters"
@@ -168,13 +161,24 @@ class CloudflareClient():
         print("get Domian Firewall Filters for domain %s result is : %s " %(domain,res))
         return res
 
-    def deleteDomainFirewallFilters(self,domain,domainZoneID):
-        url = getZoneIDUrl + "/" + domainZoneID + "/filters"
+    def deleteDomainFirewallFilters(self,domain,domainZoneID,filterID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/filters?id=" + filterID
         res = requests.delete(url, headers=self._requestHeaders).json()
         print("delete Domian Firewall Filters for domain %s result is : %s " % (domain, res))
         return res
 
-    def addDomainFirewallFilters(self):
-        pass
+    def addDomainFirewallFilters(self,domain,domainZoneID,expression):
+        url = getZoneIDUrl + "/" + domainZoneID + "/filters"
+        requestParams = [{
+            "expression": expression
+        }]
+        res = requests.post(url, data=json.dumps(requestParams), headers=self._requestHeaders).json()
+        print("add Domian Firewall Filters for domain %s result is : %s " % (domain, res))
+        return res
 
-
+    def deleteDomainCache(self,domain,domainZoneID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/purge_cache"
+        requestParams = {"purge_everything": True}
+        res = requests.post(url,headers=self._requestHeaders,data=json.dumps(requestParams)).json()
+        print("flush Domian Cache for domain %s result is : %s " % (domain, res))
+        return res

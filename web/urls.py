@@ -18,5 +18,6 @@ urlpatterns = [
     path('cloudflareListDomainWAFRules',views.cloudflareListDomainWAFRules,name="cloudflareListDomainWAFRules"),
     path('cloudflareAddDomainWAFRules',views.cloudflareAddDomainWAFRules,name="cloudflareAddDomainWAFRules"),
     path('cloudflareDeleteDomainWAFRules',views.cloudflareDeleteDomainWAFRules,name="cloudflareDeleteDomainWAFRules"),
+    path('cloudflareFlushDomainCache',views.cloudflareFlushDomainCache,name="cloudflareFlushDomainCache"),
     path('SIMS_show',views.SIMS_show,name="SIMS_show"),
 ]

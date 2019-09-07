@@ -12,7 +12,24 @@
                 <td><input class="easyui-textbox" type="text" name="domains" data-options="required:true,multiline:true" value="{{domains}}" style="width:200px;height:200px"></td>
             </tr>
         </table>
-
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Expression</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td><input class="easyui-textbox" type="text" name="ruleName" data-options="prompt:'Rule Name'"></td>
+                <td><input class="easyui-textbox" type="text" name="ruleExpression" data-options="prompt:'expression'" style="width:400px"></td>
+                <td><select class="easyui-combobox" name="action" style="width:90px;">
+                    <option value="Block">Block</option>
+                    <option value="JSChallenge">JS Challenge</option>
+                    <!--<option value="Challenge_Captcha">Challenge(Captcha)</option>-->
+                    <option value="Allow">Allow</option>
+                    <option value="Log">Log</option>
+                </select></td>
+            </tr>
+        </table>
         <input type="submit" value="Submit"  />
     </form>
     {% if tipMessage %}
