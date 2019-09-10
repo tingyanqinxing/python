@@ -19,5 +19,7 @@ urlpatterns = [
     path('cloudflareAddDomainWAFRules',views.cloudflareAddDomainWAFRules,name="cloudflareAddDomainWAFRules"),
     path('cloudflareDeleteDomainWAFRules',views.cloudflareDeleteDomainWAFRules,name="cloudflareDeleteDomainWAFRules"),
     path('cloudflareFlushDomainCache',views.cloudflareFlushDomainCache,name="cloudflareFlushDomainCache"),
+    path('cloudflareCreateDomainCertificate',views.cloudflareCreateDomainCertificate,name="cloudflareCreateDomainCertificate"),
+    path('cloudflareSetDomainAlwaysUseHTTPS',views.cloudflareSetDomainAlwaysUseHTTPS,name="cloudflareSetDomainAlwaysUseHTTPS"),
     path('SIMS_show',views.SIMS_show,name="SIMS_show"),
 ]

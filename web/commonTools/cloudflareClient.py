@@ -182,3 +182,13 @@ class CloudflareClient():
         res = requests.post(url,headers=self._requestHeaders,data=json.dumps(requestParams)).json()
         print("flush Domian Cache for domain %s result is : %s " % (domain, res))
         return res
+
+    def setDomainAlwaysUseHttps(self,domain,domainZoneID):
+        url = getZoneIDUrl + "/" + domainZoneID + "/settings/always_use_https"
+        data = {"value": "on"}
+        res = requests.patch(url,data=json.dumps(data),headers=self._requestHeaders).json()
+        print("set domain always use https for domain %s result is : %s" %(domain,res))
+        return res
+
+    def createDomainCertificate(self,domain,):
+        pass

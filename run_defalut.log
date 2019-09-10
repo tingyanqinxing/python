@@ -6171,3 +6171,106 @@ ValueError: too many values to unpack (expected 2)
 2019-09-07 11:43:31,072 [MainThread:25752] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
 2019-09-07 11:43:31,793 [MainThread:22564] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 2019-09-07 11:43:52,107 [Thread-1:25028] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareFlushDomainCache HTTP/1.1" 200 1352
+2019-09-07 13:44:42,099 [MainThread:25584] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-07 13:55:09,595 [MainThread:25584] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-07 13:55:10,221 [MainThread:7560] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-07 13:58:17,554 [MainThread:7560] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-07 13:58:18,163 [MainThread:10772] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-07 13:58:38,222 [MainThread:10772] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-07 13:58:38,936 [MainThread:26932] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-07 13:59:21,262 [MainThread:26932] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-07 13:59:21,953 [MainThread:20700] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-07 14:02:03,005 [MainThread:20700] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-07 14:02:03,619 [MainThread:24548] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-07 14:02:32,534 [MainThread:24548] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-07 14:02:33,149 [MainThread:27804] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:18:14,993 [MainThread:10680] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:22:05,436 [MainThread:10680] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-10 21:22:06,159 [MainThread:15100] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:22:08,211 [MainThread:15084] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:22:28,528 [MainThread:15084] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-10 21:22:29,242 [MainThread:18140] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:22:50,412 [Thread-1:17956] [django.server:154] [basehttp:log_message] [INFO]- "GET /web HTTP/1.1" 301 0
+2019-09-10 21:22:50,465 [Thread-1:17956] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4954
+2019-09-10 21:22:50,490 [Thread-1:17956] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1766
+2019-09-10 21:22:50,490 [Thread-2:7036] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1736
+2019-09-10 21:22:50,504 [Thread-3:18364] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/inputCss.css HTTP/1.1" 404 1667
+2019-09-10 21:22:50,507 [Thread-4:6568] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1730
+2019-09-10 21:22:50,510 [Thread-5:16548] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1751
+2019-09-10 21:22:50,585 [Thread-6:14020] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-10 21:22:50,586 [Thread-6:14020] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-10 21:22:53,087 [Thread-6:14020] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1766
+2019-09-10 21:22:53,095 [Thread-7:16248] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1736
+2019-09-10 21:22:53,098 [Thread-8:15376] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/inputCss.css HTTP/1.1" 404 1667
+2019-09-10 21:23:09,502 [MainThread:18140] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-10 21:23:10,262 [MainThread:18316] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:23:11,451 [Thread-1:17656] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4954
+2019-09-10 21:23:11,469 [Thread-1:17656] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1766
+2019-09-10 21:23:11,477 [Thread-2:15084] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1736
+2019-09-10 21:23:11,489 [Thread-3:16120] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/inputCss.css HTTP/1.1" 404 1667
+2019-09-10 21:23:11,497 [Thread-4:13904] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1730
+2019-09-10 21:23:11,688 [Thread-5:7592] [django.server:154] [basehttp:log_message] [WARNING]- "GET /staticCommon/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1751
+2019-09-10 21:23:11,740 [Thread-6:14064] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-10 21:23:11,741 [Thread-6:14064] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-10 21:23:28,196 [MainThread:18316] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-10 21:23:28,869 [MainThread:7956] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:23:31,133 [Thread-1:7960] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-10 21:23:31,152 [Thread-1:7960] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-10 21:23:31,158 [Thread-2:14828] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-10 21:23:31,169 [Thread-3:18256] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-10 21:23:31,178 [Thread-4:11404] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-10 21:23:31,185 [Thread-5:18140] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-10 21:23:31,248 [Thread-6:18400] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-10 21:23:31,249 [Thread-6:18400] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-10 21:24:16,303 [MainThread:7956] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-10 21:24:16,984 [MainThread:12252] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:24:41,162 [MainThread:12252] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-10 21:24:41,800 [MainThread:17360] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:24:45,398 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-10 21:24:45,440 [Thread-3:16912] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-10 21:24:45,441 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-10 21:24:45,442 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-10 21:24:45,444 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-10 21:24:45,458 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-10 21:24:45,552 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-09-10 21:24:45,561 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-10 21:24:45,561 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-09-10 21:24:45,566 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-09-10 21:24:45,587 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-10 21:24:45,609 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-09-10 21:24:45,665 [Thread-1:12380] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-10 21:24:45,666 [Thread-1:12380] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-10 21:24:52,234 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-09-10 21:24:52,234 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-10 21:24:52,252 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1274
+2019-09-10 21:24:52,271 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-10 21:24:52,273 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-10 21:24:52,274 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-10 21:24:52,279 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-10 21:24:52,296 [Thread-3:16912] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-10 21:24:55,041 [Thread-3:16912] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1281
+2019-09-10 21:24:55,070 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-10 21:24:55,071 [Thread-3:16912] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-10 21:24:55,071 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-10 21:24:55,083 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-10 21:24:55,088 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-10 21:25:07,819 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2219
+2019-09-10 21:25:07,840 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-10 21:25:07,841 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-10 21:25:07,841 [Thread-3:16912] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-10 21:25:07,842 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-10 21:25:07,865 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-10 21:25:08,014 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/combo_arrow.png HTTP/1.1" 200 117
+2019-09-10 21:25:21,233 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 200 2234
+2019-09-10 21:25:21,257 [Thread-2:500] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-10 21:25:21,258 [Thread-3:16912] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-10 21:25:21,261 [Thread-4:16920] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-10 21:25:21,274 [Thread-5:12880] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-10 21:25:21,286 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-10 21:25:21,398 [Thread-1:12380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/combo_arrow.png HTTP/1.1" 200 117
+2019-09-10 21:26:58,774 [MainThread:17360] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-10 21:26:59,571 [MainThread:17076] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:27:19,973 [MainThread:17076] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-10 21:27:55,666 [MainThread:17768] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-10 21:27:59,128 [Thread-1:18012] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2219
+2019-09-10 21:28:17,394 [Thread-1:18012] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 200 2234

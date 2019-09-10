@@ -204,7 +204,10 @@ def cloudflareAddDomainRecord(request):
         addType = postData['addType']
         recordName = postData['recordName']
         recordValue = postData['recordValue']
-        proxyed = postData['proxyed']
+        if postData['proxyed'] == "0":
+            proxyed = False
+        else:
+            proxyed = True
         if not recordName or not recordValue:
             templateData["tipMessage"] = ["Name 或 Value不能为空"]
             return render(request, "web/cloudflare/cloudflareAddDomainRecord.html", templateData)
@@ -570,4 +573,65 @@ def cloudflareFlushDomainCache(request):
                     templateData["tipMessage"].append("%s -- %s" % (d, str(res["errors"])))
         return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
+def cloudflareSetDomainAlwaysUseHTTPS(request):
+    postData = request.POST
+    print(postData)
+    templateData = {"tipMessage": [],
+                    "formProcessUrl": "cloudflareSetDomainAlwaysUseHTTPS",
+                    "domains": '请输入域名，每行一个',
+                    }
+    if not postData:
+        templateData["tipMessage"] = ["请输入域名，每行一个"]
+        return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+    ###检查前端数据是否合法
+    resCode, info = cloudflareFrontPostDataIsValid(postData)
+    if not resCode:
+        templateData["tipMessage"].append(info)
+        return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+    else:
+        domains = info
+        cloudflareClient = CloudflareClient(authEmail, authKey)
+        for d in domains:
+            domainZoneID = cloudflareClient.getDomainZoneID(d)
+            if not domainZoneID:
+                templateData["tipMessage"].append("domain %s not exists" % (d))
+                continue
+            else:
+                res = cloudflareClient.setDomainAlwaysUseHttps(d,domainZoneID)
+                if res["success"]:
+                    templateData["tipMessage"].append("%s -- %s" % (d, "设置成功"))
+                else:
+                    templateData["tipMessage"].append("%s -- %s" % (d, str(res["errors"])))
+        return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+
+def cloudflareCreateDomainCertificate(request):
+    postData = request.POST
+    print(postData)
+    templateData = {"tipMessage": [],
+                    "formProcessUrl": "cloudflareCreateDomainCertificate",
+                    "domains": '请输入域名，每行一个',
+                    }
+    if not postData:
+        templateData["tipMessage"] = ["请输入域名，每行一个"]
+        return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+    ###检查前端数据是否合法
+    resCode, info = cloudflareFrontPostDataIsValid(postData)
+    if not resCode:
+        templateData["tipMessage"].append(info)
+        return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+    else:
+        domains = info
+        cloudflareClient = CloudflareClient(authEmail, authKey)
+        for d in domains:
+            domainZoneID = cloudflareClient.getDomainZoneID(d)
+            if not domainZoneID:
+                templateData["tipMessage"].append("domain %s not exists" % (d))
+                continue
+            else:
+                res = cloudflareClient.setDomainAlwaysUseHttps(d, domainZoneID)
+                if res["success"]:
+                    templateData["tipMessage"].append("%s -- %s" % (d, "设置成功"))
+                else:
+                    templateData["tipMessage"].append("%s -- %s" % (d, str(res["errors"])))
+        return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
