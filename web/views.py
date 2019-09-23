@@ -74,13 +74,14 @@ def changeNginxConfig(request):
     else:
         return HttpResponse("Configure Failure")
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck("web/cloudflare/cloudflareListBase.html","cloudflareAddDomain")
 def cloudflareAddDomain(request):
     postData = request.POST
     templateData = {
                     "tipMessage":[],
                     "formProcessUrl":"cloudflareAddDomain",
-
+                    "tableHead" : ("序号","域名","结果","其他信息"),
+                    "tableBody": []
                     }
 
     domains = postData["domains"].split("\r\n")
@@ -88,82 +89,96 @@ def cloudflareAddDomain(request):
     cloudflareClient = CloudflareClient(authEmail,authKey)
     ###多个账号得情况下，需确认具体得账号
     cf_accountID = cloudflareClient.getAccountID()
-    ####添加域名到cloud flare
+    t = 0
     for d in domains:
         res = cloudflareClient.addDomain(cf_accountID,d)
-        if res["success"]:
-            templateData["tipMessage"].append("%s :: %s" %(d,"添加成功"))
-        else:
-            templateData["tipMessage"].append("%s :: %s" % (d, str(res["errors"])))
+        templateData["tableBody"].append((str(t), d,str(res["success"]), res["errors"]))
 
     return render(request,"web/cloudflare/cloudflareListBase.html",templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck("web/cloudflare/cloudflareListBase.html","cloudflareListDomainRecord")
 def cloudflareListDomainRecord(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
                     "formProcessUrl": "cloudflareListDomainRecord",
-                    "domains": '请输入域名，每行一个',
+                    "tableHead" : ("序号","域名","类型","子域名",
+                                   "值","CDN加速","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail,authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         print("ZoneID of domain %s is %s" %(d,domainZoneID))
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" %(d))
+            templateData["tableBody"].append((t,d,'-','-','-','-','域名不存在'))
             continue
         res = cloudflareClient.listDomainRecords(domainZoneID,d)
         if res["success"]:
-            results = res["result"]
-            for r in results:
-                templateData["tipMessage"].append("%s ::: %s ::: %s ::: %s ::: proxied - %s" %(d,r["type"],r["name"],r["content"],r["proxied"]))
+            r = res["result"][0]
+            if r:
+                templateData["tableBody"].append((t, d, r["type"],
+                                              r["name"],
+                                              r['content'],
+                                               str(r["proxied"]),
+                                              '-'))
+            else:
+                templateData["tableBody"].append((t, d, "-",
+                                                  '-',
+                                                  '-',
+                                                  '-',
+                                                  '无解析记录'))
         else:
-            templateData["tipMessage"].append("%s ::: %s" %(d,str(res["errors"])))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', res["errors"]))
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck("web/cloudflare/cloudflareDeleteDomainRecord.html","cloudflareDeleteDomainRecord")
 def cloudflareDeleteDomainRecord(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "类型", "子域名",
+                                  "值", "CDN加速", "其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail,authKey)
     deleType = postData['deleteType']
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" %(d))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', '域名不存在'))
             continue
         print("ZoneID of domain %s is %s" % (d, domainZoneID))
         res = cloudflareClient.listDomainRecords(domainZoneID, d)
         ####获取域名recordID,根据recordid删除记录
         if res["success"]:
-            for r in res["result"]:
-                if r["type"] == deleType:
-                    recordID = r["id"]
-                    res = cloudflareClient.delDomainRecord(d, domainZoneID, recordID)
-                    if res["success"]:
-                        templateData["tipMessage"].append("%s ::: %s" %(d,"删除成功"))
-                    else:
-                        templateData["tipMessage"].append("%s ::: %s" % (d, str(res["errors"])))
+            r = res["result"][0]
+            templateData["tableBody"].append((t, d, r["type"],
+                                              r["name"],
+                                              r['content'],
+                                              str(r["proxied"]),
+                                              '-'))
         else:
-            templateData["tipMessage"].append("%s ::: %s" %(d,str(res["errors"])))
-    if not templateData["tipMessage"]:
-        templateData["tipMessage"].append("无匹配记录，未删除任何值")
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', res["errors"]))
+    print(templateData)
     return render(request, "web/cloudflare/cloudflareDeleteDomainRecord.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck("web/cloudflare/cloudflareAddDomainRecord.html",'cloudflareAddDomainRecord')
 def cloudflareAddDomainRecord(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "类型", "子域名",
+                                  "值", "CDN加速", "其他信息"),
+                    "tableBody": []
                     }
 
     domains = postData["domains"].split("\r\n")
@@ -180,61 +195,66 @@ def cloudflareAddDomainRecord(request):
         return render(request, "web/cloudflare/cloudflareAddDomainRecord.html", templateData)
     else:
         cloudflareClient = CloudflareClient(authEmail,authKey)
+        t = 0
         for d in domains:
+            t+=1
             domainZoneID = cloudflareClient.getDomainZoneID(d)
             if not domainZoneID:
-                templateData["tipMessage"].append("domain %s not exists" %(d))
+                templateData["tableBody"].append((t, d, '-', '-', '-', '-', '域名不存在'))
                 continue
-            resCode,desc = cloudflareClient.addDomainRecord(d,domainZoneID,addType,recordName,recordValue,bool(proxyed))
-            templateData["tipMessage"].append("add record for %s result: %s" %(d,desc))
+            res = cloudflareClient.addDomainRecord(d,domainZoneID,addType,recordName,recordValue,bool(proxyed))
+            if res['success']:
+                r = res["result"]
+                templateData["tableBody"].append((t, d, r["type"],
+                                                  r["name"],
+                                                  r['content'],
+                                                  str(r["proxied"]),
+                                                  '-'))
+            else:
+                templateData["tableBody"].append((t, d, '-', '-', '-', '-', res["errors"]))
         return render(request, "web/cloudflare/cloudflareAddDomainRecord.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareListDomainRateLimits')
 def cloudflareListDomainRateLimits(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
                     "formProcessUrl": "cloudflareListDomainRateLimits",
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "名称", "url",
+                                  "阈值", "周期", "动作","生效时长","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', '-', '-', '域名不存在'))
             continue
         res = cloudflareClient.getDomainRateLimits(d,domainZoneID)
-        resCode = res["success"]
-        if resCode:
-            ###[{"ruleName":"RuleContent"},...])
-            result = res["result"]
-            if result:
-                ruleList = []
-                for r in result:
-                    ruleName = r["description"]
-                    ruleContent = "methods : %s | schemes : %s | urls : %s  period : %s threshold : %s --> action : %s timeout : %s --> disabled : %s" % (
-                    r["match"]['request']["methods"], r["match"]['request']["schemes"],
-                    r["match"]['request']['url'], str(r["period"]), str(r["threshold"]), r["action"]["mode"],
-                    str(r["action"]["timeout"]), str(r["disabled"]))
-                    ruleList.append({ruleName: ruleContent})
-                for r in ruleList:
-                    key, = r
-                    value, = r.values()
-                    templateData["tipMessage"].append("%s ::: %s : %s" % (d, key, value))
+        if res["success"]:
+            if res['result']:
+                r = res['result'][0]
+                templateData["tableBody"].append((t, d, r['description'], r['match']['request']['url'], r['threshold'], r['period'],r['action']['mode'],
+                                              r['action']['timeout'], '-'))
             else:
-                templateData["tipMessage"].append("%s ::: %s" % (d, "没有RateLimit规则"))
+                templateData["tableBody"].append((t, d, '-', '-', '-', '-', '-', '-', '无记录'))
         else:
-            templateData["tipMessage"].append("%s ::: %s" %(d,str(res["errors"])))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', '-', '-', str(res['errors'])))
+
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareAddDomainRateLimits.html','cloudflareAddDomainRateLimits')
 def cloudflareAddDomainRateLimits(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "名称", "url",
+                                  "阈值", "周期", "动作","生效时长","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
@@ -273,13 +293,20 @@ def cloudflareAddDomainRateLimits(request):
         templateData["tipMessage"] = ["缺少必须的参数，请检查"]
         return render(request, "web/cloudflare/cloudflareAddDomainRateLimits.html", templateData)
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-','-', '-', '域名不存在'))
             continue
-        resCode , info = cloudflareClient.addDomainRateLimits(d,domainZoneID,isDisabled,description,methods,schemes,url,threshold,period,action_mode,action_timeout,resp_body)
-        templateData["tipMessage"].append("add RateLimits for %s result: %s" % (d, info))
+        res = cloudflareClient.addDomainRateLimits(d,domainZoneID,isDisabled,description,methods,schemes,url,threshold,period,action_mode,action_timeout,resp_body)
+        if res["success"]:
+            r = res['result']
+            templateData["tableBody"].append((t, d, r['description'], r['match']['request']['url'], r['threshold'], r['period'],r['action']['mode'],
+                                              r['action']['timeout'], '-'))
+        else:
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', '-', '-', str(res['errors'])))
     return render(request, "web/cloudflare/cloudflareAddDomainRateLimits.html", templateData)
 
 def cloudflareGetDomainNameServer(request):
@@ -288,87 +315,82 @@ def cloudflareGetDomainNameServer(request):
 def SIMS_show(request):
     return HttpResponse("ok")
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareDeleteDomainRateLimits')
 def cloudflareDeleteDomainRateLimits(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
                     "formProcessUrl": "cloudflareDeleteDomainRateLimits",
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "结果","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t, d, '域名不存在'))
             continue
         else:
             res = cloudflareClient.getDomainRateLimits(d,domainZoneID)
-            resCode = res["success"]
-            if resCode:
-                result = res["result"]
-                if result:
-                    for r in result:
-                        ruleID = r["id"]
-                        res = cloudflareClient.delDomainRateLimits(d,domainZoneID,ruleID)
-                        resCode = res["success"]
-                        if resCode:
-                            templateData["tipMessage"].append("Del Domain RateLimit %s result is : %s" %(d, "删除RateLimit成功"))
-                        else:
-                            templateData["tipMessage"].append("Del Domain RateLimit %s result is : %s" %(d,str(res["errors"])))
-                else:
-                    templateData["tipMessage"].append("Get Domain RateLimit %s result : %s" % (d, "没有RateLimit规则"))
-            else:
-                templateData["tipMessage"].append("Get Domain RateLimit %s result : %s" %(d,str(res["errors"])))
+            templateData["tableBody"].append((t, d, str(res['success']),str(res["errors"])))
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareListDomainWAFRules')
 def cloudflareListDomainWAFRules(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
                     "formProcessUrl":"cloudflareListDomainWAFRules",
-                    "domains": '请输入域名，每行一个',
+                     "tableHead": ("序号", "域名", "名称","expression","action","paused","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-','域名不存在'))
             continue
         else:
             res = cloudflareClient.getFirewallRules(d,domainZoneID)
-            resCode = res["success"]
-            if resCode:
-                result = res["result"]
-                if result:
-                    for r in result:
-                        templateData["tipMessage"].append("get domain Firewall Rules for doamin %s result is : %s" %(d,str(r)))
+            if res["success"]:
+                if res["result"]:
+                    r = res["result"][0]
+                    templateData["tableBody"].append((t,d,r["description"],r['filter']['expression'],r['action'],r['paused'],'-'))
                 else:
-                    templateData["tipMessage"].append("get domain Firewall Rules for doamin %s result is : %s" % (d, "没有Firewall Rules"))
+                    templateData["tableBody"].append(
+                        (t, d, '-', '-', '-', '-', '无记录'))
             else:
-                templateData["tipMessage"].append("get domain Firewall Rules for doamin %s result is : %s" %(d,res["errors"]))
+                templateData["tableBody"].append(
+                    (t, d, '-', '-', '-', '-', str(res["errors"])))
+
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareDeleteDomainWAFRules')
 def cloudflareDeleteDomainWAFRules(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
                     "formProcessUrl": "cloudflareDeleteDomainWAFRules",
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "结果", "其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t,d,'-','域名不存在'))
             continue
         else:
             ###获取ruleID
@@ -381,17 +403,13 @@ def cloudflareDeleteDomainWAFRules(request):
                 if result:
                     for r in result:
                         res = cloudflareClient.deleteDomainFirewallRules(d, domainZoneID, r["id"])
-                        resCode = res["success"]
-                        if resCode:
-                            templateData["tipMessage"].append("delete domain Firewall Rules for doamin %s result is : %s" % (d, "删除成功"))
-                        else:
-                            templateData["tipMessage"].append("delete domain Firewall Rules for doamin %s result is : %s" % (d, str(res["errors"])))
+                        templateData["tableBody"].append((t, d, res["success"], '-'))
                 ####没有rules
                 else:
-                    templateData["tipMessage"].append("get domain Firewall Rules for doamin %s result is : %s" % (d, "没有Firewall Rules"))
+                    templateData["tableBody"].append((t, d, res["success"], '没有WAF规则'))
             else:
                 ###获取FirewallRules失败
-                templateData["tipMessage"].append("get domain Firewall Rules for doamin %s result is : %s" % (d, str(res["errors"])))
+                templateData["tableBody"].append((t, d, res["success"], str(res['errors'])))
             ####获取Domain包含的filter列表，并删除
             res = cloudflareClient.getDomainFirewallFilters(d,domainZoneID)
             resCode = res["success"]
@@ -415,12 +433,13 @@ def cloudflareDeleteDomainWAFRules(request):
                 print("get domain firewall filters for domain %s result is : %s" %(d,str(res["errors"])))
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareAddDomainWAFRules.html','cloudflareAddDomainWAFRules')
 def cloudflareAddDomainWAFRules(request):
     postData = request.POST
     print(postData)
     templateData = {"tipMessage": [],
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名", "名称","expression","action","paused","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
@@ -439,10 +458,12 @@ def cloudflareAddDomainWAFRules(request):
         templateData["tipMessage"].append("参数不足，请检查")
         return render(request, "web/cloudflare/cloudflareAddDomainWAFRules.html", templateData)
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t, d, '-', '-', '-', '-', '域名不存在'))
             continue
         else:
             ###先根据expression为domain添加filter
@@ -453,15 +474,20 @@ def cloudflareAddDomainWAFRules(request):
                 res = cloudflareClient.addDomainFirewallRules(d,domainZoneID,filterID,action,ruleName)
                 ####添加firewall rules成功
                 if res["success"]:
-                    templateData["tipMessage"].append("add Firewall Rules for domain %s result is %s" %(d,"rule添加成功"))
+                    r = res['result'][0]
+                    templateData["tableBody"].append(
+                        (t, d, r["description"], r['filter']['expression'], r['action'], r['paused'], '-'))
                 else:
-                    templateData["tipMessage"].append("add Firewall Rules for domain %s result is %s" % (d, str(res["errors"])))
+                    templateData["tableBody"].append(
+                        (t, d, '-', '-', '-', '-', str(res["errors"])))
             else:
-                templateData["tipMessage"].append("add filter for domain %s result is : %s" % (d,str(res["errors"])))
-                continue
+                print("add filter failed")
+                templateData["tableBody"].append(
+                    (t, d, '-', '-', '-', '-', str(res["errors"])))
+    print(templateData)
     return render(request, "web/cloudflare/cloudflareAddDomainWAFRules.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareFlushDomainCache')
 def cloudflareFlushDomainCache(request):
     postData = request.POST
     print(postData)
@@ -485,7 +511,7 @@ def cloudflareFlushDomainCache(request):
                 templateData["tipMessage"].append("%s -- %s" % (d, str(res["errors"])))
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareSetDomainAlwaysUseHTTPS')
 def cloudflareSetDomainAlwaysUseHTTPS(request):
     postData = request.POST
     print(postData)
@@ -509,7 +535,7 @@ def cloudflareSetDomainAlwaysUseHTTPS(request):
                 templateData["tipMessage"].append("%s -- %s" % (d, str(res["errors"])))
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
-@cfFrontPostBaseDataCheck
+@cfFrontPostBaseDataCheck("web/cloudflare/cloudflareListBase.html",'cloudflareCreateDomainCertificate')
 def cloudflareCreateDomainCertificate(request):
     postData = request.POST
     print(postData)

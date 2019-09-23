@@ -18,11 +18,5 @@
         </select>
         <input type="submit" value="Submit"  />
     </form>
-    {% if tipMessage %}
-        <div>
-            {% for t in tipMessage %}
-                <p>{{t}}</p>
-            {% endfor %}
-        </div>
-    {% endif %}
+    {% include "web/template/cloudflare/tableShow.html" %}
 </body>

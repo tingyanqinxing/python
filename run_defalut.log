@@ -92,3 +92,846 @@
 2019-09-21 19:31:10,882 [MainThread:73176] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 2019-09-21 19:31:29,843 [MainThread:73176] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
 2019-09-21 19:31:30,447 [MainThread:50356] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 19:34:55,602 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 19:34:58,957 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1277
+2019-09-21 19:35:04,876 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1277
+2019-09-21 19:35:06,844 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 1277
+2019-09-21 19:35:09,132 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRateLimits HTTP/1.1" 200 1277
+2019-09-21 19:35:09,963 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 1277
+2019-09-21 19:35:13,741 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 1277
+2019-09-21 19:35:15,289 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 1277
+2019-09-21 19:35:17,245 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1277
+2019-09-21 19:35:20,377 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1277
+2019-09-21 19:35:23,874 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1277
+2019-09-21 19:35:29,619 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1277
+2019-09-21 19:35:30,779 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1270
+2019-09-21 19:35:31,630 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1270
+2019-09-21 19:35:34,963 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-21 19:36:17,607 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 19:36:19,845 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1275
+2019-09-21 19:36:23,250 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1275
+2019-09-21 19:36:24,838 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1275
+2019-09-21 19:36:26,043 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 1275
+2019-09-21 19:36:27,405 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1275
+2019-09-21 19:36:28,582 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRateLimits HTTP/1.1" 200 1275
+2019-09-21 19:36:29,787 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 1275
+2019-09-21 19:36:31,331 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1275
+2019-09-21 19:36:32,670 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 1275
+2019-09-21 19:36:33,824 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 1275
+2019-09-21 19:36:35,177 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareGetDomainNameServer HTTP/1.1" 200 9
+2019-09-21 19:36:36,277 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareFlushDomainCache HTTP/1.1" 200 1275
+2019-09-21 19:36:37,663 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareCreateDomainCertificate HTTP/1.1" 200 1275
+2019-09-21 19:36:38,896 [Thread-1:74664] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareSetDomainAlwaysUseHTTPS HTTP/1.1" 200 1275
+2019-09-21 19:44:10,647 [Thread-4:120532] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 22:17:21,897 [MainThread:50356] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:17:22,543 [MainThread:89424] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:18:01,523 [MainThread:89424] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:18:02,136 [MainThread:96648] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:20:53,785 [MainThread:96648] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:20:54,405 [MainThread:31704] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:21:39,347 [MainThread:31704] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:21:39,978 [MainThread:29148] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:23:01,715 [MainThread:29148] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:23:02,344 [MainThread:110464] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:25:00,529 [MainThread:110464] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:25:01,140 [MainThread:32676] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:27:31,601 [Thread-2:52508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 22:27:35,405 [Thread-2:52508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 22:27:43,031 [Thread-2:52508] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareAddDomain
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 30, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 102, in cloudflareAddDomain
+    return render(request,"web/cloudflare/cloudflareListBase.html",jsonData=resultsJson)
+TypeError: render() got an unexpected keyword argument 'jsonData'
+2019-09-21 22:27:43,035 [Thread-2:52508] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareAddDomain HTTP/1.1" 500 73871
+2019-09-21 22:28:42,785 [MainThread:32676] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:28:43,402 [MainThread:109408] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:28:52,711 [MainThread:109408] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:28:53,323 [MainThread:91028] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:29:28,594 [MainThread:91028] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:29:29,223 [MainThread:48948] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:29:38,425 [MainThread:48948] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:29:39,052 [MainThread:107844] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:30:29,107 [MainThread:107844] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:30:29,712 [MainThread:132264] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:30:55,386 [Thread-1:10408] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 22:30:56,723 [Thread-1:10408] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 22:31:02,987 [Thread-1:10408] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1825
+2019-09-21 22:31:03,057 [Thread-2:135472] [django.request:228] [log:log_response] [WARNING]- Not Found: /web/{'success': False, 'errors': [{'code': 1002, 'message': 'Invalid domain'}], 'messages': [], 'result': None, 'domainName': 'a.b'}
+2019-09-21 22:31:03,058 [Thread-2:135472] [django.server:154] [basehttp:log_message] [WARNING]- "POST /web/%7B'success':%20False,%20'errors':%20[%7B'code':%201002,%20'message':%20'Invalid%20domain'%7D],%20'messages':%20[],%20'result':%20None,%20'domainName':%20'a.b'%7D HTTP/1.1" 404 6521
+2019-09-21 22:31:03,067 [Thread-1:10408] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/loading.gif HTTP/1.1" 200 1737
+2019-09-21 22:44:46,003 [MainThread:132264] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:44:46,633 [MainThread:56380] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:44:49,746 [MainThread:56380] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:44:50,349 [MainThread:59132] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:47:36,917 [MainThread:59132] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:47:37,522 [MainThread:19936] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:48:04,133 [MainThread:19936] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:48:04,752 [MainThread:77412] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:48:21,459 [MainThread:77412] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:48:22,060 [MainThread:2556] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:48:43,910 [MainThread:2556] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:48:44,616 [MainThread:118056] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:49:02,689 [MainThread:118056] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:49:03,313 [MainThread:43756] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:49:16,217 [MainThread:43756] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:49:16,852 [MainThread:34208] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:49:23,718 [MainThread:34208] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:49:24,339 [MainThread:54008] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:49:29,806 [MainThread:54008] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:49:30,424 [MainThread:26704] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:55:42,635 [MainThread:26704] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:55:43,279 [MainThread:132372] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 22:55:56,114 [MainThread:132372] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-21 22:55:56,715 [MainThread:83516] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-21 23:15:14,932 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:15:14,981 [Thread-2:107952] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:15:14,984 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:15:14,995 [Thread-4:18760] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:15:14,999 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:15:15,015 [Thread-5:24216] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:15:15,118 [Thread-5:24216] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-09-21 23:15:15,118 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:15:15,118 [Thread-4:18760] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-09-21 23:15:15,123 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-09-21 23:15:15,159 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:15:15,184 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-09-21 23:15:16,599 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-09-21 23:15:16,603 [Thread-4:18760] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:15:16,610 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:15:16,640 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:15:16,640 [Thread-4:18760] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:15:16,641 [Thread-5:24216] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:15:16,644 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:15:16,663 [Thread-2:107952] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:15:23,050 [Thread-2:107952] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2299
+2019-09-21 23:15:23,084 [Thread-3:4992] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:15:23,085 [Thread-5:24216] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:15:23,085 [Thread-2:107952] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:15:23,094 [Thread-4:18760] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:15:23,101 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:15:23,219 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:19:26,021 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:19:28,182 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:19:35,598 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1276
+2019-09-21 23:19:41,318 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2240
+2019-09-21 23:20:36,084 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:20:37,434 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:20:42,331 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2240
+2019-09-21 23:21:30,657 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:21:31,652 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:21:35,924 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2207
+2019-09-21 23:22:33,128 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:22:35,065 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:22:39,431 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2225
+2019-09-21 23:24:12,111 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:24:12,131 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:24:12,133 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:24:12,149 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:24:12,153 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:24:12,162 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:24:12,274 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-09-21 23:24:12,281 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:24:12,284 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-09-21 23:24:12,289 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-09-21 23:24:12,311 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:24:12,334 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-09-21 23:24:13,930 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:24:13,931 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-09-21 23:24:13,949 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:24:13,970 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:24:13,971 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:24:13,971 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:24:13,972 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:24:13,992 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:24:18,064 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2240
+2019-09-21 23:24:18,095 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:24:18,096 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:24:18,096 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:24:18,097 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:24:18,127 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:24:18,222 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:24:59,496 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:24:59,521 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:24:59,527 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:24:59,532 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:24:59,532 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:24:59,551 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:24:59,645 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-09-21 23:24:59,653 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:24:59,653 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-09-21 23:24:59,669 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-09-21 23:24:59,683 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:24:59,706 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-09-21 23:25:01,307 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-09-21 23:25:01,307 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:25:01,322 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:25:01,345 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:25:01,346 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:25:01,346 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:25:01,347 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:25:01,349 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:25:06,005 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2238
+2019-09-21 23:25:06,032 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:25:06,035 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:25:06,039 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:25:06,041 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:25:06,065 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:25:06,144 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:25:29,902 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:25:29,944 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:25:29,944 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:25:29,945 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:25:29,945 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:25:29,967 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:25:30,068 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-09-21 23:25:30,076 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:25:30,079 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-09-21 23:25:30,083 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-09-21 23:25:30,106 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:25:30,134 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-09-21 23:25:31,685 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-09-21 23:25:31,686 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-21 23:25:31,702 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:25:31,726 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:25:31,728 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:25:31,728 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:25:31,729 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:25:31,749 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:25:35,617 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2206
+2019-09-21 23:25:35,635 [Thread-13:88116] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-21 23:25:35,642 [Thread-10:98604] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-21 23:25:35,642 [Thread-11:4112] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-21 23:25:35,643 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-21 23:25:35,645 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-21 23:25:35,752 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-21 23:27:43,749 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:27:45,178 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:27:49,258 [Thread-12:97940] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2271
+2019-09-21 23:27:49,276 [Thread-12:97940] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareAddDomain HTTP/1.1" 500 59
+2019-09-21 23:27:49,576 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2271
+2019-09-21 23:28:35,492 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:28:36,496 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:28:40,381 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2243
+2019-09-21 23:28:54,083 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:28:55,893 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:28:59,788 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2255
+2019-09-21 23:31:42,845 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:31:43,881 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:31:47,816 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2307
+2019-09-21 23:34:13,090 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:34:14,045 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:34:18,097 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2203
+2019-09-21 23:36:32,546 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:36:33,861 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:36:37,544 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2195
+2019-09-21 23:37:16,105 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:37:17,137 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:37:20,928 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2195
+2019-09-21 23:39:30,623 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:39:31,713 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:39:36,258 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2254
+2019-09-21 23:40:09,140 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:40:10,405 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:40:14,371 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2195
+2019-09-21 23:40:41,528 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 1273
+2019-09-21 23:40:46,946 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2180
+2019-09-21 23:41:46,089 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:41:48,860 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:41:52,388 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2172
+2019-09-21 23:43:26,314 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:43:28,888 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:43:32,821 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2185
+2019-09-21 23:44:16,441 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2161
+2019-09-21 23:46:50,508 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:46:51,400 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:46:54,892 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2183
+2019-09-21 23:47:09,281 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:47:09,790 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:47:10,693 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:47:13,881 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2187
+2019-09-21 23:49:00,596 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:49:01,839 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:49:06,546 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2175
+2019-09-21 23:51:39,456 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-21 23:51:41,312 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-21 23:51:45,115 [Thread-1:79972] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2117
+2019-09-22 22:27:36,938 [MainThread:83516] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:27:37,882 [MainThread:90948] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:30:33,944 [MainThread:90948] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:30:34,736 [MainThread:70308] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:32:53,472 [MainThread:70308] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:32:54,112 [MainThread:72028] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:34:03,125 [MainThread:72028] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:34:03,754 [MainThread:114552] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:34:27,367 [MainThread:114552] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:34:27,956 [MainThread:104532] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:34:58,762 [MainThread:104532] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:34:59,376 [MainThread:136632] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:35:11,713 [MainThread:136632] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:35:12,319 [MainThread:99496] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:35:33,908 [MainThread:99496] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:35:34,526 [MainThread:39028] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:36:36,941 [MainThread:39028] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:36:37,586 [MainThread:120892] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:36:54,867 [MainThread:120892] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:36:55,461 [MainThread:8984] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:37:12,197 [MainThread:8984] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:37:12,813 [MainThread:60996] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:37:28,320 [MainThread:60996] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:37:28,940 [MainThread:54768] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:38:07,792 [MainThread:54768] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:38:08,416 [MainThread:43128] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:38:23,787 [MainThread:43128] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:38:24,470 [MainThread:56680] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:39:41,010 [MainThread:56680] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:39:41,630 [MainThread:8756] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:40:35,591 [MainThread:8756] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:40:36,257 [MainThread:26460] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:40:50,409 [MainThread:26460] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:40:51,028 [MainThread:32760] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:41:23,741 [MainThread:32760] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:41:24,384 [MainThread:56408] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:41:29,925 [MainThread:56408] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:41:30,585 [MainThread:60400] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:41:47,736 [Thread-2:127196] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 22:41:49,356 [Thread-2:127196] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareAddDomain
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: web/template/tableShow.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 18, in wrapper
+    return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+  File "C:\Program Files\Python37\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Program Files\Python37\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: web/template/tableShow.html
+2019-09-22 22:41:49,363 [Thread-2:127196] [django.server:154] [basehttp:log_message] [ERROR]- "GET /web/cloudflareAddDomain HTTP/1.1" 500 126543
+2019-09-22 22:42:58,833 [Thread-2:127196] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 22:43:00,043 [Thread-2:127196] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1280
+2019-09-22 22:43:08,093 [Thread-2:127196] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2556
+2019-09-22 22:43:12,555 [Thread-2:127196] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1280
+2019-09-22 22:43:22,396 [Thread-2:127196] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2557
+2019-09-22 22:46:25,328 [MainThread:60400] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:46:25,964 [MainThread:3588] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:46:30,365 [Thread-1:107560] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2553
+2019-09-22 22:46:32,674 [Thread-1:107560] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 22:46:34,343 [Thread-1:107560] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1276
+2019-09-22 22:46:42,454 [Thread-1:107560] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2552
+2019-09-22 22:47:02,064 [Thread-1:107560] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1276
+2019-09-22 22:47:08,092 [Thread-1:107560] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2113
+2019-09-22 22:49:52,380 [MainThread:24496] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:49:55,704 [Thread-1:15340] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 22:49:57,029 [Thread-1:15340] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1272
+2019-09-22 22:50:06,815 [Thread-1:15340] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2548
+2019-09-22 22:52:06,536 [MainThread:24496] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 22:52:07,186 [MainThread:28036] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 22:52:11,220 [Thread-1:22436] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 22:52:12,263 [Thread-1:22436] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1272
+2019-09-22 22:52:18,283 [Thread-1:22436] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2548
+2019-09-22 22:54:56,057 [Thread-1:22436] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 22:55:03,717 [Thread-1:22436] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1272
+2019-09-22 23:03:04,566 [MainThread:28036] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:03:05,202 [MainThread:56400] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:03:19,000 [MainThread:56400] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:03:19,603 [MainThread:119736] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:03:45,706 [MainThread:119736] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:03:46,311 [MainThread:26284] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:04:11,456 [MainThread:26284] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:04:12,083 [MainThread:134648] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:05:07,896 [MainThread:134648] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:05:08,532 [MainThread:90896] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:06:40,071 [MainThread:90896] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:06:40,714 [MainThread:26156] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:07:51,375 [MainThread:26156] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:07:52,020 [MainThread:123180] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:08:08,619 [MainThread:123180] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py changed, reloading.
+2019-09-22 23:08:09,298 [MainThread:88776] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:09:01,664 [MainThread:88776] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:09:02,298 [MainThread:101532] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:09:32,672 [MainThread:101532] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:09:33,292 [MainThread:14428] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:10:52,801 [MainThread:14428] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:10:53,432 [MainThread:61100] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:15:24,287 [MainThread:61100] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:15:24,912 [MainThread:93868] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:16:22,036 [MainThread:93868] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:16:22,669 [MainThread:64328] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:17:49,537 [MainThread:64328] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:17:50,163 [MainThread:100100] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:18:29,045 [MainThread:100100] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:18:29,663 [MainThread:61760] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:19:01,268 [MainThread:61760] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:19:01,888 [MainThread:97412] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:19:43,202 [MainThread:97412] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:19:43,967 [MainThread:99696] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:20:10,469 [MainThread:99696] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:20:11,167 [MainThread:22536] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:20:41,472 [MainThread:22536] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:20:42,106 [MainThread:126708] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:21:13,546 [MainThread:126708] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:21:14,163 [MainThread:37408] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:21:39,418 [MainThread:37408] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:21:40,057 [MainThread:52496] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:22:06,416 [MainThread:52496] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:22:07,068 [MainThread:90928] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:22:31,203 [MainThread:90928] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-22 23:22:31,838 [MainThread:30868] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-22 23:22:45,977 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-22 23:22:54,696 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-22 23:22:54,703 [Thread-1:4052] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-22 23:22:54,797 [Thread-1:4052] [django.server:154] [basehttp:log_message] [ERROR]- "GET /web/cloudflareAddDomain HTTP/1.1" 500 59
+2019-09-22 23:23:16,826 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2548
+2019-09-22 23:23:20,591 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-22 23:23:27,226 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 3173
+2019-09-22 23:23:36,467 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1283
+2019-09-22 23:23:40,803 [Thread-2:58888] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1274
+2019-09-23 12:25:39,245 [Thread-3:48656] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 3187
+2019-09-23 12:26:06,549 [MainThread:30868] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:26:07,205 [MainThread:121760] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:26:14,066 [MainThread:121760] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:26:14,696 [MainThread:36312] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:26:19,947 [Thread-1:49372] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:26:20,987 [Thread-1:49372] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-23 12:26:23,549 [Thread-1:49372] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 3059
+2019-09-23 12:26:31,893 [Thread-1:49372] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-23 12:26:35,843 [Thread-1:49372] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2426
+2019-09-23 12:26:49,529 [Thread-1:49372] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 2584
+2019-09-23 12:27:05,957 [Thread-1:49372] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 123, in cloudflareListDomainRecord
+    templateData["tableBody"].append((t, d, r["type"],
+TypeError: list indices must be integers or slices, not str
+2019-09-23 12:27:05,962 [Thread-1:49372] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 500 75385
+2019-09-23 12:30:30,951 [MainThread:36312] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:30:31,601 [MainThread:51312] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:30:37,241 [MainThread:51312] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:30:37,890 [MainThread:42180] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:30:40,864 [Thread-1:127136] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:30:42,168 [Thread-1:127136] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-23 12:30:52,004 [Thread-1:127136] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 3059
+2019-09-23 12:32:16,930 [MainThread:42180] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:32:17,667 [MainThread:130084] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:32:41,329 [Thread-1:124468] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2220
+2019-09-23 12:32:41,417 [Thread-1:124468] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/combo_arrow.png HTTP/1.1" 200 117
+2019-09-23 12:32:56,549 [Thread-1:124468] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 200 2319
+2019-09-23 12:35:22,091 [MainThread:130084] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:35:22,718 [MainThread:67408] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:36:12,553 [MainThread:67408] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:36:13,164 [MainThread:91964] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:36:50,587 [MainThread:91964] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:36:51,249 [MainThread:105004] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:36:57,980 [MainThread:105004] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:36:58,634 [MainThread:67868] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:38:07,154 [MainThread:67868] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:38:07,768 [MainThread:52812] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:38:13,301 [MainThread:52812] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:38:13,978 [MainThread:115896] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:38:55,254 [MainThread:115896] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:38:55,908 [MainThread:113004] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:39:32,922 [Thread-1:106740] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 124, in cloudflareListDomainRecord
+    templateData["tableBody"].append((t, d, r["type"],
+TypeError: list indices must be integers or slices, not str
+2019-09-23 12:39:32,927 [Thread-1:106740] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 500 76749
+2019-09-23 12:40:57,671 [MainThread:113004] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:40:58,349 [MainThread:63616] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:41:07,630 [Thread-1:37632] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:41:08,701 [Thread-1:37632] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-23 12:41:12,997 [Thread-1:37632] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 3097
+2019-09-23 12:41:55,055 [MainThread:63616] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:41:55,697 [MainThread:46672] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:41:58,118 [Thread-2:106908] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:41:58,963 [Thread-2:106908] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-23 12:42:04,118 [Thread-2:106908] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 3067
+2019-09-23 12:42:36,406 [MainThread:46672] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:42:37,037 [MainThread:95636] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:42:42,237 [Thread-1:104132] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-23 12:42:48,471 [Thread-1:104132] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 3264
+2019-09-23 12:43:06,528 [MainThread:95636] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:43:07,138 [MainThread:78920] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:43:10,213 [MainThread:78920] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:43:10,832 [MainThread:113764] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:43:15,965 [Thread-1:34684] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2220
+2019-09-23 12:43:27,425 [Thread-1:34684] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareAddDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 206, in cloudflareAddDomainRecord
+    if res['success']:
+TypeError: tuple indices must be integers or slices, not str
+2019-09-23 12:43:27,430 [Thread-1:34684] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 500 76298
+2019-09-23 12:44:14,893 [MainThread:113764] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-23 12:44:15,538 [MainThread:50280] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:44:22,423 [Thread-1:41632] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:44:23,468 [Thread-1:41632] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2220
+2019-09-23 12:44:32,411 [Thread-1:41632] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 200 2106
+2019-09-23 12:45:53,406 [Thread-1:41632] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:45:58,025 [Thread-1:41632] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2217
+2019-09-23 12:46:06,865 [Thread-1:41632] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareAddDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 207, in cloudflareAddDomainRecord
+    r = res["result"][0]
+KeyError: 0
+2019-09-23 12:46:06,869 [Thread-1:41632] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 500 77210
+2019-09-23 12:46:39,102 [MainThread:50280] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:46:39,730 [MainThread:59552] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:46:44,346 [Thread-2:90368] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 12:46:45,723 [Thread-2:90368] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRecord HTTP/1.1" 200 2217
+2019-09-23 12:46:59,335 [Thread-2:90368] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 200 4009
+2019-09-23 12:47:26,608 [Thread-2:90368] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRecord HTTP/1.1" 200 4131
+2019-09-23 12:48:17,259 [MainThread:59552] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:48:17,924 [MainThread:11784] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:48:24,693 [MainThread:11784] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:48:25,379 [MainThread:34856] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:49:10,235 [MainThread:34856] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:49:10,877 [MainThread:57796] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:49:37,534 [MainThread:57796] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:49:38,174 [MainThread:94684] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:50:10,907 [Thread-1:10140] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRateLimits HTTP/1.1" 200 3597
+2019-09-23 12:50:34,726 [Thread-1:10140] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainRateLimits HTTP/1.1" 200 3704
+2019-09-23 12:51:10,680 [MainThread:94684] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:51:11,336 [MainThread:109872] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:51:23,052 [MainThread:109872] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:51:23,771 [MainThread:18368] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:51:55,415 [MainThread:18368] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:51:56,046 [MainThread:89344] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:52:21,555 [MainThread:89344] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:52:22,185 [MainThread:123048] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:52:56,004 [MainThread:123048] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:52:56,612 [MainThread:85012] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:53:06,036 [MainThread:85012] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:53:06,648 [MainThread:65756] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:54:12,389 [MainThread:65756] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:54:13,015 [MainThread:128100] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:55:36,125 [MainThread:128100] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:55:36,859 [MainThread:100236] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:55:54,788 [MainThread:100236] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-23 12:55:55,428 [MainThread:84496] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:56:03,504 [MainThread:84496] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:56:04,154 [MainThread:113300] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:56:15,806 [MainThread:113300] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:56:16,424 [MainThread:38208] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:56:22,794 [MainThread:38208] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:56:23,492 [MainThread:117868] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:56:46,771 [MainThread:117868] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:56:47,379 [MainThread:58364] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:57:01,834 [MainThread:58364] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:57:02,445 [MainThread:105292] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:57:12,864 [MainThread:105292] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:57:13,484 [MainThread:74444] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:57:32,654 [MainThread:74444] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:57:33,285 [MainThread:51944] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:57:41,319 [MainThread:51944] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:57:41,981 [MainThread:91916] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:57:49,978 [MainThread:91916] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:57:50,639 [MainThread:37660] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:57:53,879 [MainThread:37660] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:57:54,513 [MainThread:126980] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:58:03,716 [MainThread:126980] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:58:04,329 [MainThread:93416] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:58:32,432 [MainThread:93416] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:58:33,038 [MainThread:13804] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:58:43,612 [MainThread:13804] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:58:44,230 [MainThread:108788] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:58:53,502 [MainThread:108788] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:58:54,150 [MainThread:47992] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:58:59,671 [MainThread:47992] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:59:00,342 [MainThread:51556] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:59:18,287 [MainThread:51556] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:59:18,915 [MainThread:83172] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:59:28,242 [MainThread:83172] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:59:28,942 [MainThread:56048] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:59:34,487 [MainThread:56048] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:59:35,108 [MainThread:136424] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 12:59:38,176 [MainThread:136424] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 12:59:38,846 [MainThread:2492] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 13:00:10,394 [MainThread:2492] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 13:00:11,021 [MainThread:25892] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 13:05:29,306 [MainThread:25892] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 13:05:29,943 [MainThread:110168] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 13:05:35,438 [MainThread:110168] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 13:05:36,134 [MainThread:136340] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:12:48,472 [MainThread:136340] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:12:49,132 [MainThread:90096] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:13:24,217 [MainThread:90096] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:13:25,047 [MainThread:98104] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:14:13,757 [MainThread:98104] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:14:14,398 [MainThread:97404] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:14:59,510 [MainThread:97404] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:15:00,122 [MainThread:121228] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:15:49,072 [Thread-1:44492] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1283
+2019-09-23 15:15:49,094 [Thread-1:44492] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-23 15:15:49,095 [Thread-1:44492] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-23 15:15:52,848 [Thread-1:44492] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRateLimits
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 241, in cloudflareListDomainRateLimits
+    templateData["tableBody"].append((t, d, r['description'], r['match']['request']['url'], r['threshold'], r['period'],r['action']['mode'],
+TypeError: list indices must be integers or slices, not str
+2019-09-23 15:15:52,853 [Thread-1:44492] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRateLimits HTTP/1.1" 500 77469
+2019-09-23 15:16:41,327 [MainThread:121228] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:16:41,974 [MainThread:37664] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:16:48,290 [Thread-2:102104] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 15:16:49,338 [Thread-2:102104] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1283
+2019-09-23 15:16:53,698 [Thread-2:102104] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRateLimits HTTP/1.1" 200 3447
+2019-09-23 15:17:07,261 [Thread-2:102104] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 1285
+2019-09-23 15:17:12,760 [Thread-2:102104] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 1422
+2019-09-23 15:18:01,063 [MainThread:37664] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:18:01,704 [MainThread:54048] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:18:17,029 [MainThread:54048] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:19:58,858 [MainThread:30492] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:20:13,253 [MainThread:30492] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:20:13,914 [MainThread:95364] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:20:22,000 [MainThread:95364] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:20:22,627 [MainThread:39780] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:21:32,714 [Thread-1:123072] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 2439
+2019-09-23 15:21:39,400 [Thread-1:123072] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 2439
+2019-09-23 15:21:46,444 [Thread-1:123072] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRateLimits
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 239, in cloudflareListDomainRateLimits
+    r = res['result'][0]
+IndexError: list index out of range
+2019-09-23 15:21:46,448 [Thread-1:123072] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRateLimits HTTP/1.1" 500 75304
+2019-09-23 15:22:52,269 [MainThread:39780] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:22:53,014 [MainThread:36536] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:22:56,034 [MainThread:36536] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:22:56,659 [MainThread:7960] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:23:02,014 [Thread-2:41680] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 15:23:03,400 [Thread-2:41680] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1283
+2019-09-23 15:23:10,136 [Thread-2:41680] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRateLimits
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "D:\Tools\Python\qqcweb\web\views.py", line 239, in cloudflareListDomainRateLimits
+    if res['result'][0]:
+IndexError: list index out of range
+2019-09-23 15:23:10,141 [Thread-2:41680] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRateLimits HTTP/1.1" 500 75331
+2019-09-23 15:23:32,660 [MainThread:7960] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:23:33,275 [MainThread:113336] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:23:35,508 [Thread-2:126940] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 15:23:37,369 [Thread-2:126940] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRateLimits HTTP/1.1" 200 1283
+2019-09-23 15:23:41,580 [Thread-2:126940] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRateLimits HTTP/1.1" 200 3453
+2019-09-23 15:24:46,305 [MainThread:113336] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 15:24:46,980 [MainThread:111796] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 15:25:10,583 [Thread-1:35212] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1281
+2019-09-23 15:25:17,663 [Thread-1:35212] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1448
+2019-09-23 15:25:29,677 [Thread-1:35212] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2198
+2019-09-23 20:13:26,506 [Thread-2:111252] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-23 20:13:26,508 [Thread-2:111252] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-23 20:13:40,150 [Thread-2:111252] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1448
+2019-09-23 20:14:49,291 [Thread-2:111252] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2339
+2019-09-23 20:17:01,837 [MainThread:111796] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:17:02,468 [MainThread:44416] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:18:18,223 [MainThread:44416] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:18:18,871 [MainThread:27740] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:18:46,784 [MainThread:27740] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:18:47,483 [MainThread:85792] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:18:56,746 [MainThread:85792] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:18:57,487 [MainThread:130252] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:19:29,021 [MainThread:130252] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:19:29,657 [MainThread:102236] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:19:46,402 [MainThread:102236] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:19:47,036 [MainThread:101736] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:20:32,118 [MainThread:101736] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:20:32,746 [MainThread:53944] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:20:58,004 [MainThread:53944] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:20:58,656 [MainThread:90756] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:43:01,104 [Thread-1:65772] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1171
+2019-09-23 20:43:46,187 [MainThread:90756] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:43:46,847 [MainThread:86520] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:56:59,536 [MainThread:86520] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:57:00,225 [MainThread:24836] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:57:11,406 [MainThread:24836] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:57:12,036 [MainThread:97364] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 20:58:05,557 [MainThread:97364] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 20:58:06,163 [MainThread:86964] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:03:54,044 [MainThread:86964] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:03:54,681 [MainThread:131112] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:04:15,683 [MainThread:131112] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:04:16,288 [MainThread:98460] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:04:51,726 [MainThread:98460] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:04:52,422 [MainThread:66552] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:05:12,723 [MainThread:66552] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:05:13,349 [MainThread:28324] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:05:22,642 [MainThread:28324] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:05:23,271 [MainThread:115928] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:05:37,026 [MainThread:115928] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:05:37,629 [MainThread:62064] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:05:47,811 [MainThread:62064] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:05:48,435 [MainThread:3324] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:05:55,222 [MainThread:3324] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:05:55,891 [MainThread:62840] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:06:07,711 [MainThread:62840] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:06:08,343 [MainThread:92696] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:06:51,298 [MainThread:92696] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:06:51,929 [MainThread:111436] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:07:19,729 [MainThread:111436] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:07:20,369 [MainThread:43576] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:07:24,666 [MainThread:43576] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:07:25,301 [MainThread:133288] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:07:27,130 [MainThread:133288] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:07:27,767 [MainThread:127432] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:17:32,152 [Thread-1:118064] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainWAFRules HTTP/1.1" 200 2554
+2019-09-23 21:18:03,587 [Thread-1:118064] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 1285
+2019-09-23 21:18:05,245 [Thread-1:118064] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 1283
+2019-09-23 21:18:09,628 [Thread-1:118064] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 1329
+2019-09-23 21:18:32,313 [MainThread:127432] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:18:32,960 [MainThread:7324] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:18:46,011 [MainThread:7324] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:18:46,653 [MainThread:11844] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:19:23,125 [MainThread:11844] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:19:23,751 [MainThread:52436] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:19:46,809 [MainThread:52436] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:19:47,428 [MainThread:107892] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:22:35,456 [MainThread:107892] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:22:36,114 [MainThread:109328] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:23:15,057 [MainThread:109328] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:23:15,699 [MainThread:20600] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:23:43,558 [MainThread:20600] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:23:44,195 [MainThread:114892] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:23:49,749 [MainThread:114892] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:23:50,399 [MainThread:78488] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:23:57,242 [MainThread:78488] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:23:57,871 [MainThread:80868] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:24:46,021 [Thread-1:65860] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 2073
+2019-09-23 21:25:11,636 [MainThread:80868] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:25:12,306 [MainThread:97060] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:25:54,518 [Thread-1:70568] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2236
+2019-09-23 21:32:18,926 [MainThread:97060] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:32:19,592 [MainThread:29180] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:33:16,956 [MainThread:29180] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:33:17,603 [MainThread:63184] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:33:56,756 [MainThread:63184] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:33:57,377 [MainThread:102288] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:34:02,947 [MainThread:102288] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:34:03,623 [MainThread:91516] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:34:07,903 [MainThread:91516] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:34:08,526 [MainThread:2268] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:34:31,291 [MainThread:2268] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:34:31,974 [MainThread:36004] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:34:52,281 [MainThread:36004] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:34:52,896 [MainThread:41488] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:35:25,829 [Thread-1:115140] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2084
+2019-09-23 21:40:21,288 [MainThread:41488] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:40:21,917 [MainThread:87036] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:41:22,794 [Thread-2:90508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 21:41:23,706 [Thread-2:90508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2198
+2019-09-23 21:41:38,883 [Thread-2:90508] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2084
+2019-09-23 21:43:51,233 [MainThread:87036] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:43:51,874 [MainThread:26320] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:44:08,982 [Thread-1:39896] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2084
+2019-09-23 21:44:09,026 [Thread-5:81728] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-23 21:44:09,038 [Thread-1:39896] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-23 21:44:09,041 [Thread-2:95176] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-23 21:44:09,061 [Thread-4:98664] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-23 21:44:09,339 [Thread-3:55220] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-23 21:44:09,396 [Thread-3:55220] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/combo_arrow.png HTTP/1.1" 200 117
+2019-09-23 21:44:54,760 [MainThread:26320] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-23 21:44:55,389 [MainThread:98908] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-23 21:45:42,148 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-23 21:45:45,192 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 2195
+2019-09-23 21:46:00,002 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 3611
+2019-09-23 21:47:10,124 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 1285
+2019-09-23 21:47:24,134 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRateLimits HTTP/1.1" 200 2062
+2019-09-23 21:47:38,803 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 3611
+2019-09-23 21:48:14,676 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 1283
+2019-09-23 21:48:18,111 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainWAFRules HTTP/1.1" 200 2059
+2019-09-23 21:49:05,860 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomainWAFRules HTTP/1.1" 200 3462
+2019-09-23 21:49:46,170 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-23 21:49:48,762 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-23 21:49:49,826 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-23 21:49:52,609 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomainRateLimits HTTP/1.1" 200 3597
+2019-09-23 21:49:57,898 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainWAFRules HTTP/1.1" 200 1281
+2019-09-23 21:50:01,797 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareGetDomainNameServer HTTP/1.1" 200 9
+2019-09-23 21:50:02,689 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareFlushDomainCache HTTP/1.1" 200 1279
+2019-09-23 21:50:03,266 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareCreateDomainCertificate HTTP/1.1" 200 1286
+2019-09-23 21:50:03,938 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareSetDomainAlwaysUseHTTPS HTTP/1.1" 200 1286

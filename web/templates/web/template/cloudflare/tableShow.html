@@ -1,0 +1,29 @@
+{% if tipMessage %}
+        <div>
+            {% for t in tipMessage %}
+                <p>{{t}}</p>
+            {% endfor %}
+        </div>
+{% endif %}
+{% if tableBody %}
+        <table  border="1">
+            <thead>
+                <tr>
+                    {% for i in tableHead %}
+                        <th width="100">{{i}}</th>
+                    {% endfor %}
+                </tr>
+
+            </thead>
+            <tbody>
+                {% for i in tableBody %}
+                    <tr>
+                    {% with temp=i %}
+                        {% for r in temp %}
+                            <td>{{r}}</td>
+                        {% endfor %}
+                    {% endwith%}
+                {% endfor %}
+            </tbody>
+        </table>
+{% endif %}

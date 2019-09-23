@@ -69,11 +69,7 @@ class CloudflareClient():
         url = getZoneIDUrl + "/" + domainZoneID + "/dns_records"
         res = requests.post(url,data=json.dumps(requestParams),headers=self._requestHeaders).json()
         print("addDomainRecord %s result is: %s" %(domain,res))
-        resCode = res["success"]
-        if resCode:
-            return True,"添加成功"
-        else:
-            return False,str(res["errors"])
+        return res
 
     ###return (True,[{"ruleName":"RuleContent"},...]) | (False,"errors")
     def getDomainRateLimits(self,domain,domainZoneID):
@@ -118,11 +114,7 @@ class CloudflareClient():
         print("requestParams:%s" %(requestParams))
         res = requests.post(url,data=json.dumps(requestParams),headers=self._requestHeaders).json()
         print("addDomainRateLimits for domain %s result is: %s" % (domain, res))
-        resCode = res["success"]
-        if resCode:
-            return True,"添加成功"
-        else:
-            return False,str(res["errors"])
+        return res
 
     def delDomainRateLimits(self,domain,domainZoneID,domainRateLimitID):
         url = getZoneIDUrl + "/" + domainZoneID + "/rate_limits/" + domainRateLimitID
