@@ -935,3 +935,199 @@ IndexError: list index out of range
 2019-09-23 21:50:02,689 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareFlushDomainCache HTTP/1.1" 200 1279
 2019-09-23 21:50:03,266 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareCreateDomainCertificate HTTP/1.1" 200 1286
 2019-09-23 21:50:03,938 [Thread-2:62088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareSetDomainAlwaysUseHTTPS HTTP/1.1" 200 1286
+2019-09-23 22:09:05,245 [Thread-3:68508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-23 22:09:05,798 [Thread-3:68508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-23 22:09:06,542 [Thread-3:68508] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-26 16:05:36,855 [MainThread:14860] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:06:04,376 [Thread-1:14572] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:06:04,588 [Thread-3:10024] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:06:04,588 [Thread-2:15260] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:06:04,588 [Thread-1:14572] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:06:04,590 [Thread-4:12224] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:06:04,591 [Thread-5:15220] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:06:04,599 [Thread-6:8492] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:06:04,642 [Thread-7:13424] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 16:06:04,643 [Thread-7:13424] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-26 16:06:05,954 [Thread-8:13796] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:06:05,955 [Thread-9:13136] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:06:06,000 [Thread-7:13424] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-26 16:07:10,422 [Thread-7:13424] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-26 16:07:11,675 [Thread-7:13424] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareAddDomain HTTP/1.1" 200 1272
+2019-09-26 16:07:25,234 [Thread-7:13424] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareAddDomain HTTP/1.1" 200 3718
+2019-09-26 16:07:41,499 [Thread-7:13424] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "d:\Tools\Python\qqcweb\web\views.py", line 122, in cloudflareListDomainRecord
+    r = res["result"][0]
+IndexError: list index out of range
+2019-09-26 16:07:41,506 [Thread-7:13424] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 500 75943
+2019-09-26 16:08:49,105 [MainThread:14860] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:08:50,252 [MainThread:5696] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:09:00,062 [Thread-1:6284] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:09:00,187 [Thread-1:6284] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:09:00,204 [Thread-2:4320] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:09:00,206 [Thread-3:13052] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:09:00,229 [Thread-4:9420] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:09:00,249 [Thread-5:9464] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:09:00,298 [Thread-6:10676] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:09:01,891 [Thread-7:332] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-26 16:09:01,894 [Thread-8:10976] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:09:01,896 [Thread-9:14516] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:09:12,079 [Thread-7:332] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "d:\Tools\Python\qqcweb\web\views.py", line 115, in cloudflareListDomainRecord
+    domainZoneID = cloudflareClient.getDomainZoneID(d)
+  File "d:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py", line 41, in getDomainZoneID
+    self.domainZoneID = res['result'][0]['id']
+TypeError: 'NoneType' object is not subscriptable
+2019-09-26 16:09:12,085 [Thread-7:332] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 500 80899
+2019-09-26 16:12:13,839 [MainThread:5696] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-26 16:12:14,561 [MainThread:14004] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:12:35,182 [MainThread:14004] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-26 16:12:35,828 [MainThread:580] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:12:51,547 [Thread-2:12052] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:12:51,634 [Thread-2:12052] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:12:51,644 [Thread-1:1708] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:12:51,647 [Thread-3:9776] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:12:51,649 [Thread-4:1252] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:12:51,666 [Thread-5:14124] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:12:51,687 [Thread-6:7428] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:12:52,558 [Thread-8:14504] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:12:52,561 [Thread-9:14428] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:12:58,070 [Thread-7:15244] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-26 16:13:09,146 [Thread-7:15244] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 4943
+2019-09-26 16:15:00,628 [MainThread:580] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-26 16:15:01,311 [MainThread:9000] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:16:09,077 [MainThread:9000] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\commonTools\cloudflareClient.py changed, reloading.
+2019-09-26 16:16:36,833 [MainThread:6012] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:17:51,177 [Thread-2:3048] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:17:51,268 [Thread-2:3048] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:17:51,275 [Thread-1:9232] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:17:51,287 [Thread-3:10096] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:17:51,288 [Thread-4:14352] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:17:51,309 [Thread-5:2492] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:17:51,329 [Thread-6:14980] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:17:52,101 [Thread-7:14920] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-26 16:17:52,102 [Thread-8:15156] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:17:52,106 [Thread-9:14200] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:18:06,351 [Thread-7:14920] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "d:\Tools\Python\qqcweb\web\views.py", line 124, in cloudflareListDomainRecord
+    templateData["tableBody"].append((t, d, r["type"],
+TypeError: list indices must be integers or slices, not str
+2019-09-26 16:18:06,352 [Thread-7:14920] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 500 80982
+2019-09-26 16:19:14,808 [MainThread:6012] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:19:16,336 [MainThread:14624] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:19:29,024 [Thread-2:14476] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:19:29,141 [Thread-2:14476] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:19:29,157 [Thread-1:14516] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:19:29,161 [Thread-3:13848] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:19:29,161 [Thread-4:14844] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:19:29,189 [Thread-5:13132] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:19:29,215 [Thread-6:4668] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:19:32,117 [Thread-7:14088] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-26 16:19:32,121 [Thread-9:2560] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:19:32,122 [Thread-8:11356] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:19:41,056 [Thread-7:14088] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareListDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "d:\Tools\Python\qqcweb\web\views.py", line 122, in cloudflareListDomainRecord
+    r = res["result"][0]
+IndexError: list index out of range
+2019-09-26 16:19:41,060 [Thread-7:14088] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 500 75943
+2019-09-26 16:20:53,708 [MainThread:14624] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:20:54,546 [MainThread:11868] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:21:14,956 [MainThread:11868] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:21:15,624 [MainThread:15320] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:21:18,852 [Thread-2:15064] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:21:18,948 [Thread-2:15064] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:21:18,955 [Thread-1:7480] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:21:18,963 [Thread-3:12736] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:21:18,963 [Thread-4:9292] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:21:18,978 [Thread-5:14524] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:21:18,996 [Thread-6:14024] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:21:19,872 [Thread-8:12784] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:21:19,880 [Thread-7:12148] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareListDomainRecord HTTP/1.1" 200 1279
+2019-09-26 16:21:19,883 [Thread-9:3192] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:21:34,077 [Thread-7:12148] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareListDomainRecord HTTP/1.1" 200 4809
+2019-09-26 16:22:05,380 [Thread-7:12148] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-26 16:22:11,803 [Thread-7:12148] [django.request:228] [log:log_response] [ERROR]- Internal Server Error: /web/cloudflareDeleteDomainRecord
+Traceback (most recent call last):
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Program Files\Python37\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "d:\Tools\Python\qqcweb\web\commonTools\cloudflareFrontValid.py", line 31, in wrapper
+    return fun(request)
+  File "d:\Tools\Python\qqcweb\web\views.py", line 164, in cloudflareDeleteDomainRecord
+    r = res["result"][0]
+IndexError: list index out of range
+2019-09-26 16:22:11,808 [Thread-7:12148] [django.server:154] [basehttp:log_message] [ERROR]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 500 76303
+2019-09-26 16:24:04,291 [MainThread:15320] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:24:04,922 [MainThread:13208] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:24:18,069 [Thread-2:6800] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:24:18,155 [Thread-2:6800] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:24:18,163 [Thread-1:840] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:24:18,167 [Thread-3:14232] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:24:18,170 [Thread-4:14220] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:24:18,191 [Thread-5:6400] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:24:18,208 [Thread-6:15344] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:24:19,371 [Thread-7:13696] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-26 16:24:19,374 [Thread-8:12556] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:24:19,375 [Thread-9:12068] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:24:32,632 [Thread-7:13696] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4988
+2019-09-26 16:39:17,319 [MainThread:13208] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:39:18,022 [MainThread:3540] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:39:24,818 [MainThread:3540] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:46:36,418 [MainThread:13324] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:46:37,747 [Thread-2:14900] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 16:46:37,864 [Thread-2:14900] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:46:37,880 [Thread-1:14184] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 16:46:37,882 [Thread-3:15128] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 16:46:37,884 [Thread-4:13660] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 16:46:37,908 [Thread-5:7724] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:46:37,929 [Thread-6:9536] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 16:46:39,012 [Thread-8:14104] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 16:46:39,012 [Thread-9:13640] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 16:46:39,014 [Thread-7:2064] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-26 16:46:57,155 [Thread-7:2064] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 5558
+2019-09-26 16:47:21,219 [Thread-7:2064] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1366
+2019-09-26 16:48:27,793 [Thread-7:2064] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1366
+2019-09-26 16:49:24,026 [MainThread:13324] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:49:24,838 [MainThread:12488] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:50:07,456 [MainThread:12488] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-09-26 16:50:08,120 [MainThread:14304] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 16:50:40,848 [Thread-1:15156] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4966
+2019-09-26 16:51:41,646 [Thread-1:15156] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4966

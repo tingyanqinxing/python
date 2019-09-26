@@ -119,8 +119,9 @@ def cloudflareListDomainRecord(request):
             continue
         res = cloudflareClient.listDomainRecords(domainZoneID,d)
         if res["success"]:
-            r = res["result"][0]
+            r = res["result"]
             if r:
+                r = res["result"][0]
                 templateData["tableBody"].append((t, d, r["type"],
                                               r["name"],
                                               r['content'],
@@ -160,15 +161,19 @@ def cloudflareDeleteDomainRecord(request):
         res = cloudflareClient.listDomainRecords(domainZoneID, d)
         ####获取域名recordID,根据recordid删除记录
         if res["success"]:
-            r = res["result"][0]
-            templateData["tableBody"].append((t, d, r["type"],
-                                              r["name"],
-                                              r['content'],
-                                              str(r["proxied"]),
-                                              '-'))
+            if res["result"]:
+                for r in res["result"]:
+                    if r["type"] == deleType:
+                        recordID = r["id"]
+                        res = cloudflareClient.delDomainRecord(d, domainZoneID, recordID)
+                        if res["success"]:
+                            templateData["tableBody"].append((t, d, '-', '-', '-', '-', "删除成功"))
+                        else:
+                            templateData["tableBody"].append((t, d, '-', '-', '-', '-', res["errors"]))
+            else:
+                templateData["tableBody"].append((t, d, '-', '-', '-', '-', "无记录"))
         else:
             templateData["tableBody"].append((t, d, '-', '-', '-', '-', res["errors"]))
-    print(templateData)
     return render(request, "web/cloudflare/cloudflareDeleteDomainRecord.html", templateData)
 
 @cfFrontPostBaseDataCheck("web/cloudflare/cloudflareAddDomainRecord.html",'cloudflareAddDomainRecord')

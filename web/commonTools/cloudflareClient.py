@@ -37,9 +37,10 @@ class CloudflareClient():
     def getDomainZoneID(self,domain):
         requestParams = {"name":domain}
         res = requests.get(getZoneIDUrl,headers=self._requestHeaders,params=requestParams).json()
+        print("result of getDomainZoneID for %s is : %s" %(domain,str(res)))
         try:
             self.domainZoneID = res['result'][0]['id']
-        except IndexError:
+        except (IndexError,TypeError):
             self.domainZoneID = None
         return self.domainZoneID
 
