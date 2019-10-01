@@ -1281,3 +1281,26 @@ IndexError: list index out of range
 2019-10-01 10:53:16,022 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
 2019-10-01 10:53:16,027 [Thread-2:20396] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
 2019-10-01 10:53:16,043 [Thread-1:8712] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-10-01 10:53:42,380 [Thread-1:8712] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareGetDomainNameServer HTTP/1.1" 200 11508
+2019-10-01 10:53:42,423 [Thread-1:8712] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-10-01 10:53:42,424 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-10-01 10:53:42,425 [Thread-2:20396] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-10-01 10:53:42,435 [Thread-3:18836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-10-01 10:53:42,444 [Thread-4:10796] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-10-01 13:26:58,553 [MainThread:18056] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 13:26:59,158 [MainThread:8864] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 13:27:08,266 [MainThread:8864] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 13:27:08,892 [MainThread:904] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 13:27:20,584 [MainThread:904] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 13:27:21,204 [MainThread:17108] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 13:28:09,209 [MainThread:17108] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 13:28:09,848 [MainThread:14376] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 13:30:15,963 [Thread-1:10344] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 3900
+2019-10-01 13:30:16,210 [Thread-1:10344] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-10-01 13:30:16,211 [Thread-1:10344] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-10-01 13:31:09,278 [Thread-1:10344] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareSetDomainAlwaysUseHTTPS HTTP/1.1" 200 1286
+2019-10-01 13:31:56,405 [Thread-1:10344] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareSetDomainAlwaysUseHTTPS HTTP/1.1" 200 1282
+2019-10-01 13:34:30,313 [MainThread:14376] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 13:34:36,610 [MainThread:10604] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 13:34:40,486 [MainThread:10604] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 13:34:41,172 [MainThread:12720] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader

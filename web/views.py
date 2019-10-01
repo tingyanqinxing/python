@@ -545,22 +545,25 @@ def cloudflareSetDomainAlwaysUseHTTPS(request):
     print(postData)
     templateData = {"tipMessage": [],
                     "formProcessUrl": "cloudflareSetDomainAlwaysUseHTTPS",
-                    "domains": '请输入域名，每行一个',
+                    "tableHead": ("序号", "域名","其他信息"),
+                    "tableBody": []
                     }
     domains = postData["domains"].split("\r\n")
     domains = [d.strip() for d in domains]
     cloudflareClient = CloudflareClient(authEmail, authKey)
+    t = 0
     for d in domains:
+        t += 1
         domainZoneID = cloudflareClient.getDomainZoneID(d)
         if not domainZoneID:
-            templateData["tipMessage"].append("domain %s not exists" % (d))
+            templateData["tableBody"].append((t, d, '域名不存在'))
             continue
         else:
             res = cloudflareClient.setDomainAlwaysUseHttps(d,domainZoneID)
             if res["success"]:
-                templateData["tipMessage"].append("%s -- %s" % (d, "设置成功"))
+                templateData["tableBody"].append((t,d,"设置成功"))
             else:
-                templateData["tipMessage"].append("%s -- %s" % (d, str(res["errors"])))
+                templateData["tableBody"].append((t, d, str(res['errors'])))
     return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
 
 @cfFrontPostBaseDataCheck("web/cloudflare/cloudflareListBase.html",'cloudflareCreateDomainCertificate')
