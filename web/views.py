@@ -314,8 +314,31 @@ def cloudflareAddDomainRateLimits(request):
             templateData["tableBody"].append((t, d, '-', '-', '-', '-', '-', '-', str(res['errors'])))
     return render(request, "web/cloudflare/cloudflareAddDomainRateLimits.html", templateData)
 
+@cfFrontPostBaseDataCheck('web/cloudflare/cloudflareListBase.html','cloudflareGetDomainNameServer')
 def cloudflareGetDomainNameServer(request):
-    return HttpResponse("待开发")
+    postData = request.POST
+    print(postData)
+    templateData = {"tipMessage": [],
+                    "formProcessUrl": "cloudflareGetDomainNameServer",
+                    "tableHead": ("序号", "域名", '域名服务器','DNS','域名状态',"状态码", "状态说明",'注册商','联系邮箱','创建时间','过期时间'),
+                    "tableBody": []
+                    }
+    domains = postData["domains"].split("\r\n")
+    domains = [d.strip() for d in domains]
+
+    t = 0
+    for d in domains:
+        t += 1
+        res = getDomainNameServer(d)
+        if res['StateCode'] == 1:
+            r = res["Result"]
+            templateData["tableBody"].append((t,d,r['WhoisServer'],r['DnsServer'],r['DomainStatus'],res['StateCode'],res['Reason'],r['Registrar'],
+                                              r['Email'],r['CreationDate'],r['ExpirationDate']))
+        else:
+            templateData["tableBody"].append((t,d,'-','-','-',res['StateCode'],res['Reason'],'-','-','-','-'))
+    return render(request, "web/cloudflare/cloudflareListBase.html", templateData)
+
+
 
 def SIMS_show(request):
     return HttpResponse("ok")

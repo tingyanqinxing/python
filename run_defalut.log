@@ -1131,3 +1131,153 @@ IndexError: list index out of range
 2019-09-26 16:50:08,120 [MainThread:14304] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
 2019-09-26 16:50:40,848 [Thread-1:15156] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4966
 2019-09-26 16:51:41,646 [Thread-1:15156] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4966
+2019-09-26 17:00:41,431 [Thread-3:2420] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:00:41,541 [Thread-3:2420] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 404 1787
+2019-09-26 17:00:41,553 [Thread-2:14524] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 404 1772
+2019-09-26 17:00:41,553 [Thread-4:8356] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 404 1790
+2019-09-26 17:00:41,558 [Thread-5:15120] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 404 1796
+2019-09-26 17:00:41,581 [Thread-6:12148] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 17:00:41,602 [Thread-7:2360] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 404 1805
+2019-09-26 17:00:42,952 [Thread-8:13932] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 1476
+2019-09-26 17:00:42,953 [Thread-10:7744] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 404 1748
+2019-09-26 17:00:42,955 [Thread-9:9348] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 404 1787
+2019-09-26 17:01:00,499 [Thread-8:13932] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4966
+2019-09-26 17:01:16,865 [Thread-8:13932] [django.server:154] [basehttp:log_message] [INFO]- "POST /web/cloudflareDeleteDomainRecord HTTP/1.1" 200 4966
+2019-09-26 17:18:47,810 [MainThread:1720] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:19:32,608 [Thread-2:12756] [django.server:154] [basehttp:log_message] [INFO]- "GET /web HTTP/1.1" 301 0
+2019-09-26 17:19:32,671 [Thread-2:12756] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:19:32,714 [Thread-2:12756] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:19:32,715 [Thread-1:10340] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:19:32,719 [Thread-4:3484] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:19:32,720 [Thread-3:8680] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:19:32,722 [Thread-5:11704] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:19:32,800 [Thread-6:13264] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:19:32,801 [Thread-6:13264] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-26 17:19:39,669 [Thread-6:13264] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:19:39,702 [Thread-6:13264] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:19:39,708 [Thread-7:12860] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:19:39,718 [Thread-8:12868] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:19:39,719 [Thread-9:12876] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:19:39,721 [Thread-10:12832] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:19:39,760 [Thread-11:12824] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:19:39,762 [Thread-11:12824] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-26 17:19:50,195 [Thread-11:12824] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:19:50,228 [Thread-12:12736] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:19:50,229 [Thread-11:12824] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:19:50,238 [Thread-13:12436] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:19:50,240 [Thread-14:12500] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:19:50,240 [Thread-15:12968] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:19:54,743 [Thread-16:7468] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:19:54,772 [Thread-16:7468] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:19:54,775 [Thread-17:10444] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:19:54,791 [Thread-18:13244] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:19:54,793 [Thread-19:12924] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:19:54,794 [Thread-20:12928] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:19:56,677 [Thread-21:4640] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:19:56,710 [Thread-21:4640] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:19:56,711 [Thread-22:10556] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:19:56,719 [Thread-23:7324] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:19:56,723 [Thread-24:10052] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:19:56,725 [Thread-25:13256] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:20:12,344 [Thread-26:8816] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:20:12,346 [Thread-27:10384] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:20:12,348 [Thread-28:12100] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:20:14,136 [Thread-30:4640] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:20:14,163 [Thread-30:4640] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:20:14,170 [Thread-29:12632] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:20:14,185 [Thread-31:10556] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:20:14,190 [Thread-32:7324] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:20:14,191 [Thread-33:10052] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:20:43,229 [MainThread:13124] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:20:47,617 [Thread-2:8756] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:20:47,648 [Thread-2:8756] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:20:47,655 [Thread-1:12832] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:20:47,678 [Thread-3:12824] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:20:47,683 [Thread-4:4248] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:20:47,684 [Thread-5:7848] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:20:47,698 [Thread-6:5840] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:20:47,757 [Thread-7:12944] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:20:47,758 [Thread-7:12944] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-26 17:21:38,176 [MainThread:10664] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:21:42,064 [Thread-2:12624] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:21:42,089 [Thread-2:12624] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1754
+2019-09-26 17:21:42,093 [Thread-1:7692] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1724
+2019-09-26 17:21:42,100 [Thread-3:11552] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1655
+2019-09-26 17:21:42,107 [Thread-4:12752] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1718
+2019-09-26 17:21:42,114 [Thread-5:12408] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1739
+2019-09-26 17:21:42,170 [Thread-6:7392] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:21:42,171 [Thread-6:7392] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2071
+2019-09-26 17:21:46,938 [MainThread:11260] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:21:52,746 [Thread-2:7844] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:21:52,774 [Thread-2:7844] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1759
+2019-09-26 17:21:52,780 [Thread-1:12536] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1729
+2019-09-26 17:21:52,793 [Thread-3:12760] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1660
+2019-09-26 17:21:52,801 [Thread-4:11188] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1723
+2019-09-26 17:21:52,803 [Thread-5:11808] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1744
+2019-09-26 17:21:52,867 [Thread-6:12632] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:21:52,868 [Thread-6:12632] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2076
+2019-09-26 17:22:53,945 [MainThread:12028] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:22:57,651 [Thread-2:12656] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:22:57,677 [Thread-2:12656] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 404 1759
+2019-09-26 17:22:57,677 [Thread-1:12736] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 404 1729
+2019-09-26 17:22:57,688 [Thread-3:9136] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/inputCss.css HTTP/1.1" 404 1660
+2019-09-26 17:22:57,696 [Thread-5:8620] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 404 1744
+2019-09-26 17:22:57,697 [Thread-4:11088] [django.server:154] [basehttp:log_message] [WARNING]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 404 1723
+2019-09-26 17:22:57,757 [Thread-6:7748] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:22:57,758 [Thread-6:7748] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2076
+2019-09-26 17:24:52,891 [MainThread:12028] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-26 17:24:53,490 [MainThread:5092] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:25:42,152 [MainThread:5092] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\qqcweb\settings.py changed, reloading.
+2019-09-26 17:25:42,732 [MainThread:2596] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-09-26 17:29:18,344 [Thread-2:8656] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-09-26 17:29:18,388 [Thread-1:5760] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-09-26 17:29:18,388 [Thread-2:8656] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-09-26 17:29:18,390 [Thread-3:12692] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-09-26 17:29:18,398 [Thread-4:4228] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-09-26 17:29:18,412 [Thread-5:13244] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-09-26 17:29:18,495 [Thread-5:13244] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-09-26 17:29:18,506 [Thread-5:13244] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-09-26 17:29:18,506 [Thread-3:12692] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-09-26 17:29:18,513 [Thread-3:12692] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-09-26 17:29:18,535 [Thread-3:12692] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-09-26 17:29:18,559 [Thread-3:12692] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-09-26 17:29:18,608 [Thread-3:12692] [django.request:228] [log:log_response] [WARNING]- Not Found: /favicon.ico
+2019-09-26 17:29:18,608 [Thread-3:12692] [django.server:154] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2076
+2019-10-01 10:06:27,037 [MainThread:16372] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 10:06:45,745 [Thread-2:5836] [django.server:154] [basehttp:log_message] [INFO]- "GET /web HTTP/1.1" 301 0
+2019-10-01 10:06:45,796 [Thread-2:5836] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 4924
+2019-10-01 10:06:45,830 [Thread-3:20228] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-10-01 10:06:45,837 [Thread-1:15556] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-10-01 10:06:45,838 [Thread-2:5836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-10-01 10:06:45,856 [Thread-4:11064] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-10-01 10:06:45,887 [Thread-5:10380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-10-01 10:06:45,963 [Thread-5:10380] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-10-01 10:06:45,966 [Thread-4:11064] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-10-01 10:06:45,968 [Thread-2:5836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-10-01 10:06:45,972 [Thread-4:11064] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-10-01 10:06:45,997 [Thread-4:11064] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-10-01 10:06:46,022 [Thread-4:11064] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-10-01 10:06:55,648 [Thread-4:11064] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareGetDomainNameServer HTTP/1.1" 200 9
+2019-10-01 10:06:55,650 [Thread-2:5836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-10-01 10:17:30,688 [MainThread:16372] [django.utils.autoreload:203] [autoreload:trigger_reload] [INFO]- D:\Tools\Python\qqcweb\web\views.py changed, reloading.
+2019-10-01 10:53:08,395 [MainThread:18056] [django.utils.autoreload:576] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+2019-10-01 10:53:13,448 [Thread-2:20396] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/ HTTP/1.1" 200 3900
+2019-10-01 10:53:13,490 [Thread-2:20396] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-10-01 10:53:13,492 [Thread-1:8712] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-10-01 10:53:13,503 [Thread-3:18836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-10-01 10:53:13,509 [Thread-4:10796] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-10-01 10:53:13,528 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979
+2019-10-01 10:53:13,618 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tree_icons.png HTTP/1.1" 200 3115
+2019-10-01 10:53:13,633 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/blank.gif HTTP/1.1" 200 43
+2019-10-01 10:53:13,633 [Thread-4:10796] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/panel_tools.png HTTP/1.1" 200 852
+2019-10-01 10:53:13,642 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/layout_arrows.png HTTP/1.1" 200 319
+2019-10-01 10:53:13,664 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-10-01 10:53:13,689 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/accordion_arrows.png HTTP/1.1" 200 184
+2019-10-01 10:53:15,951 [Thread-4:10796] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icons/reload.png HTTP/1.1" 200 1045
+2019-10-01 10:53:15,954 [Thread-3:18836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/images/tabs_icons.png HTTP/1.1" 200 150
+2019-10-01 10:53:16,002 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /web/cloudflareGetDomainNameServer HTTP/1.1" 200 1282
+2019-10-01 10:53:16,021 [Thread-3:18836] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/icon.css HTTP/1.1" 200 2506
+2019-10-01 10:53:16,021 [Thread-4:10796] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/inputCss.css HTTP/1.1" 200 543
+2019-10-01 10:53:16,022 [Thread-5:20092] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/themes/default/easyui.css HTTP/1.1" 200 71999
+2019-10-01 10:53:16,027 [Thread-2:20396] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.min.js HTTP/1.1" 200 97163
+2019-10-01 10:53:16,043 [Thread-1:8712] [django.server:154] [basehttp:log_message] [INFO]- "GET /static/jquery-easyui-1.7.0/jquery.easyui.min.js HTTP/1.1" 200 453979

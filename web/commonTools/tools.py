@@ -5,6 +5,7 @@ import paramiko
 import logging
 import random
 import time
+import requests
 logger = logging.getLogger("django")
 ##检查ip地址是否合法
 def checkIP(ip):
@@ -31,6 +32,10 @@ def checkMainDomainIsValid(domain):
     return True if pattern.match(domain) else False
 
 
+def getDomainNameServer(domain):
+    url = 'http://apidata.chinaz.com/CallAPI/Whois?key=%s&domainName=%s' %('08e7220d3c724da5865904e762e0582e',domain)
+    res = requests.get(url).json()
+    return res
 
 
 ###nginx配置文件分析类
